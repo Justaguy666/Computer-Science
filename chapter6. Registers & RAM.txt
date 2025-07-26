@@ -1,0 +1,125 @@
+	THE NEED FOR MEMORY
+	* Why Do We Need Memory?
+		- Calculations would be meaningless if results couldn't be saved.
+		
+		- Memory allows a computer to store results, data, and programs to reuse or sequential operations.
+		
+		- Similar to human short-term memory, computer memory temporarily holds information for processing.
+		
+	* Basic Types of Memory:
+		- Volatile Memory:
+			+ Requires a continuous power supply to retain data. Data is lost when power is off.
+			
+			+ Example: RAM (Random Access Memory).
+			
+		- Non-Volatile Memory:
+			+ Retains data even when the power is off.
+			
+			+ Example: Flash memory (USB, SSD), ROM (Read-Only Memory).
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BUILDING A SINGLE BIT OF MEMORY (LATCH)
+	* Basic Idea: Feedback Loop.
+		- Logic gates (AND, OR, NOT) can be wired in loops to "remember" a state.
+		
+		- Example:
+			+ OR gate with output fed back into input: Can "remember" a 1, hard to reset to 0.
+			
+			+ AND gate with ouput looped back back: Can "remember" a 0, hard to reset to 1.
+			
+	* SR Latch (Set-Reset Latch):
+		- Function: The most basic circuit that can store one bit of information.
+		
+		- Structure: Built from two cross-connected NOR and NAND gates.
+		
+		- Inputs:
+			+ Set (S): Sets output to '1'.
+			
+			+ Reset (R): Sets output to '0'.
+			
+		- Outputs: Q (stored value) and Q' (inverted Q).
+		
+		- Limitation: Enters an "undefined state" when both S and R are active at the same time.
+		
+	* Gated Latch / D Latch:
+		- Function: An improved version  of SR latch, avoiding undefined states and simplifying control.
+		
+		- Structure: Adds an "Enable" or "Clock" input to control when data is stored.
+		
+		- Inputs:
+			+ Data (D): The data bit is stored (0 or 1).
+			
+			+ Enable (E): Controls whether data is written. Data is stored only when E is active.
+			
+		- Operation: When Enable is active, output Q follows D. When not, Q holds its last value regardless
+		of D.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	EXPANDING STORAGE: FROM SINGLE BIT TO REGISTERS AND MEMORY MATRICES
+	* Register:
+		- Function: Stores a group of bits.
+		
+		- Structure: Simply multiple D latches placed side by side, each storing one bit.
+		
+		- Inputs: Each bit has a seperate data input, but all latches share a common Enable line.
+		
+	* Memory Matrix:
+		- Challenge: Storing hundreds or thousands of bits individually leads to unmanagable number of wires.
+		
+		- Solution: Arrange bits (D latches) into a grid (matrix).
+		
+		- How it works:
+			+ Each bit is selected using a combination of a row wire and a column wire.
+			
+			+ An AND gate ensures that only the latch at the intersection of the selected row and column is
+			activated.
+			
+			+ Greatly reduces wiring needed for data input/output and read/write control.
+			
+	* Memory Addressing: Each memory location needs a unique address so the computer can find and access it.
+	
+	* Multiplexer (Mux):
+		- Function: A logic circuit that selects one of many inputs and routes it to a single output.
+		
+		- Application in memory: Used to select the correct row or column based on the provided address.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BUILDING LARGER MEMORY MODULES (RAM)
+	* Module Abstraction: A 256-bit memory module (like the matrix) can be treated as a "black box" with:
+	Address input, data input/output, read/write control line.
+	
+	* Building Byte-Addressable Memory:
+		- To store bytes, arrange 8 of these 256-bit modules side by side.
+		
+		- All 8 modules share the same address input.
+		
+		- Each module stores one bit of the byte.
+		
+		- This create a 256-byte addressable memory bank.
+		
+	* Scalability: This concept can be scaled to build memory in megabytes, gigabytes, or terabytes by adding
+	more modules.
+	
+	* Importance of Abstraction: Encapsulating complex circuits into simpler blocks is essential for managing
+	large computer systems.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	RANDOM ACCESS MEMORY (RAM)
+	* Definition: RAM (Random Access Memory) allows any memory location to be accessed directly and in any order,
+	simply by providing the address. Access time is nearly constant for all locations.
+	
+	* Human Memory Comparision: RAM is like short-term memory, storing information currently in use or being processed.
+	
+	* Types of RAM:
+		- DRAM (Dynamic RAM): Most common, cheaper and higher density, but must be refreshed constantly.
+		
+		- SRAM (Static RAM): Faster and more expensive, doesn't require refreshing, used in CPU caches.
+		
+		- Flash Memory: A non-volatile form of memory used in USBs, SSDs.
+		
+		- MRAM (Magnetoresistive RAM): Newer tech combining SRAM speed with non-volatile.
+	

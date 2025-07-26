@@ -1,0 +1,79 @@
+	FROM 2D GRAPHICS TO 3D
+	* Introduction to 3D Graphics: In 3D graphics, points have three coordinates (x, y and z), adding a sense of depth.
+	
+	* 3D Projections:
+		- Since the screen is 2D, 3D coordinates must be "flattened" onto 2D plane - this is called projection.
+		
+		- Orthographics Projecttion: In this type, parallel lines in 3D space remain parallel in the 2D projection. Commonly
+		used in engineering drawings.
+		
+		- Perspective Projection: Mimics how we perceive depth in the real world, where parallel lines appear to converge in 
+		the distance. Create a sense of depth and realism.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	CONSTRUCTING 3D MODELS: WIREFRAMES AND POLYGONS
+	* Wireframes: Simple shapes can be defined using lines.
+	
+	* Polygons:
+		- For more complex shapes, triangles (polygons) are preferred since three points uniquely defined a plane.
+		
+		- Polygon Mesh Density: The density of these polygon (mesh) affects both visual detail and computational load.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	BASIC RENDERING ALGORITHMS
+	* Scanline Rendering:
+		- A classic algorithm for coloring polygons.
+		
+		- It works by iterating through horizontal lines (scanlines) and filling in pixels between polygon edges.
+		
+	* Anti-Aliasing (AA):
+		- Smooths out jagged edges ("jaggies") in digital graphics.
+		
+		- Instead of pixels being simply on or off, their color adjusted based on how much of the pixel is covered 
+		by the space.
+		
+	* Hidden Surface Removal:
+		- In a 3D scene, some objects are hiden behinds others.
+		
+		- Painter's Algorithm: Sort polygons from farthest to nearest, then render them in that order. May struggled with 
+		overlapping polygons.
+		
+		- Z-Buffering:
+			+ Keep track of the closest object at each pixel. No sorting needed, making it faster.
+			
+			+ Maintains a "z-buffer" (depth buffer) and only draws a pixel if the new polygon is closer than what's already
+			stored.
+			
+			+ Z-fighting: An artifact that occurs when two polygons have very similar depth values.
+			
+	* Back-Face Culling: An optimization technique where the back faces of polygons (those not visible to the camera) are not
+	rendered, saving processing time.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LIGHTING, SHADING, AND TEXTURING
+	* Lighting / Shading:
+		- Determines how light interacts with surfaces.
+		
+		- Flat Shading: The simplest method, where each polygon is given a single color based on it angle to the light and 
+		viewer. This makes polygon boundaries more visible.
+		
+		- Advanced Techniques: Techniques like Gouraud and Phong shading provide smoother, and more realistic lighting.
+		
+	* Texturing:
+		- Applying an image (texture) to the surface of a 3D model.
+		
+		- Texture Mapping: Involves mapping coordinates from the image to the pologon surface. When rendering the polygon,
+		the color is looked up from the texture image.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	HARDWARE ACCELERATION (GPU)
+	* Computational Demands: Rendering complex 3D scenes requires significant computation.
+	
+	* Graphics Processing Units (GPUs):
+		- Specialized processors designed to handle these calculations in parallel, greatly speeding up rendering.
+		
+		- They feature many processing cores and dedicated video memory (VRAM).

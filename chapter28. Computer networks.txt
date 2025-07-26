@@ -1,0 +1,92 @@
+	INTRODUCTION TO COMPUTER NETWORKS
+	* The Transformative Power of the Internet: Internet enables instant global communication and information access.
+	
+	* Comparision to the Past: It contrasts with the slow communication of the past, highlighting a million-fold improvement
+	in latency.
+	
+	* The Need for Networks: Early computers (pre-1970s) operated in isolation. The need for sharing data and resources led to
+	the development of the first computer networks.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	EARLY NETWORKS AND LOCAL AREA NETWORKS (LANS)
+	* Emergence of Early Networks: The first networks emerged in the 1950s-60s, mainly in institutions for exchanging information
+	and sharing resources (e.g., printers and storage).
+	
+	* Local Area Networks (LANs): These relatively small and localized networks are called LANs.
+	
+	* Erthernet: Erthernet, developed in the early 1970s at Xerox PARC, became the most successful LAN technology and remains
+	widely used.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	ERTHERNET AND CSMA/CD
+	* Simple Erthernet Priciple: In its simplest form, Ethernet connects computers via a shared cable. Data is broadcast
+	along the cable as electrical signals.
+	
+	* MAC Address: To ensure data reaches the connect computers, each has a unique indetifier called a MAC address, included
+	in data transmissions.
+	
+	* Carrier Sense Multiple Address (CSMA): The general approach to sharing the transmission medium is called CSMA.
+	
+	* Collisions: A major challenge with shared media is collisions, when multiple computers try to transmit simultaneously.
+	
+	* Collision Detection (CD): Erthernet uses Collision Detection. When a collision is detected, computers wait a short, random
+	amount of time before retransmitting.
+	
+	* Exponential Backoff: To further reduce collision, Exponential Backoff is used: the wait time increases exponentially
+	after each subsequent collision.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	REDUCING COLLISIONS AND NETWORK SWITCHES
+	* Collision Domain: To improve efficiency, the number of devices on shared medium (collision domain) should be minimized.
+	
+	* Network Switches:
+		- Used to divide larger networks into smaller collsion domains.
+		
+		- Switches learn which MAC address in on which segment and only forward data between segments when necessary.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	ROUTING AND NETWORK ARCHITECTURE
+	* Routing: Large networks often have multiple paths for data. This introduces the concept of routing.
+	
+	* Circuit Switching: This method, used in early telephone systems, reserves a physical line for the duration of communication.
+	Reliable but inflexible and costly.
+	
+	* Message Switching:
+		- Similar to postal systems, messages pass through intermediate stops (routers). This allows alternative paths, making
+		communication more reliable and fault-tolerant.
+		
+		- Hop Count: The number of intermediate stops is called the hop count. A high hop count may indicate routing issues.
+		
+		- Limitation: Large messages can congest network links.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	PACKET SWITCHING AND THE INTERNET PROTOCOL (IP)
+	* Packet Switching: To overcome message switching limitations, messages are split into smaller packets.
+	
+	* IP Addressing: Each packet contains a destination address, defined by the Internet Protocol (IP). Every device has 
+	an IP address (e.g., 172.217.7.238).
+	
+	* Routers and Congestion Control: Routers work constantly to balance network load and ensure reliable delivery.
+	
+	* TCP: Packets from the same message may take different routes and arrive out of order. Protocol like TCP (Transmission
+	Control Protocol) handle reordering.
+	
+	* Advantages: This packet switching approach is efficient, fault-tolerant, and forms the foundation of the modern Internet.
+	
+	* Historical Motivation: Packet switching development was partly driven by the threat of nuclear attacks during the Cold
+	War, requiring resilient communication systems.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	ARPANET AND THE GROWTH OF THE INTERNET
+	* ARPANET: The world's first packet-switched network and predecessor of the Internet was ARPANET, funded by the U.S. Advanced
+	Research Projects Agency.
+	
+	* Exponential Growth: The Internet has since growth exponentially, now connecting billions of devices, including the 
+	"Internet of Things".
+	

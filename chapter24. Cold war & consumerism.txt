@@ -1,0 +1,81 @@
+	EARLY INFLUENCES AND COMMERCIALIZATION
+	* Influence of the Cold War and the Space Race: the Cold War and the Space Race significantly increased
+	government spending on science and engineering, including computer development.
+	
+	* Pioneering Projects: Projects like ENIAC, EDVAC, and Colossus - initially driven by wartime needs - laid
+	the groundwork for the future advancements.
+	
+	* Commercialization and Public Awareness:
+		- UNIVAC I: The first commercially success computer, marking a major shift.
+		
+		- Election Prediction: UNIVAC I's used in predicting the 1952 U.S. presidential election brought computing
+		to public attention.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	VISIONARY IDEAS AND THE RISE OF THE TRANSISTOR
+	* Vannevar Bush's "Memex" Concept:
+		- A hypothetical personal information storage and retrieval device, highly influential.
+		
+		- He also predicted interconnected encyclopedias, foreshadowing the concept of hyperlinking.
+		
+	* Bush's Role in the NSF: Bush was instrumental in founding the Nation Science Foundation (NSF), a key sponsor of American scientific
+	research.
+	
+	* Rise of the Transistor and Japanese Innovation:
+		- Consumer Electronics: The 1950s saw the emergence of consumer electronics based on transistors, such
+		as portable radios.
+		
+		- Japan and Semiconductor Technology: Seeking postwar economic growth, Japan licensed transistor technology
+		and quickly became a major manufacturer in the semiconductor and electronics industries.
+		
+		- Sony TR-55; Sony's TR-55 transistor radio was an early notable success.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE SPACE RACE AND THE INTEGRATED CIRCUIT (IC)
+	* Sputnik and NASA: The Soviet Union's early space success pushed the U.S. to heavily invest in NASA.
+	
+	* Apollo Computer Needs: The Apollo program required fast, small, lightweight, and reliable computers.
+	
+	* IC Development: This led to the development and use of integrated circuits in the Apollo Guidance Computer,
+	the first computer to use them.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	MILITARY, SUPERCOMPUTERS, AND GLOBAL POWER SHIFTS
+	* Military Applications: Military uses, particularly nuclear missile systems, continued to drive mass production
+	of ICs.
+	
+	* Supercomputers: The U.S. government also invested in powerful "supercomputers" from companies like CDC, Cray, 
+	and IBM.
+	
+	* Power Shift:
+		- Japan's Focus on Consumer Markets: While early U.S. semiconductor industry growth was fuele by government
+		contracts, Japanese companies focused on low-margin consumer markets and invested heavily in manufactoring efficency.
+		
+		- Competition and Outsourcing: As Cold War spending declined, American electronics firms struggled to compete
+		with Japanese companies like Hitachi. Many downsized or outsouced production.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	COMSUMER ELECTRONICS BOOM AND THE DAWN OF THE PERSONAL COMPUTER
+	* Pocket Calculators: Japanese firms like Sharp and Casio dominated the 1970s pocket calculator market by
+	using ICs to make them affordable to general public.
+	
+	* Microprocessors and the Intel 4004: This drove the development of microprocessors, such as Intel's 4004
+	(originally commissioned by a Japanese calculator company).
+	
+	* Rise of Japanese Electronics: This era saw Japan rises in electronics such as TV, VCRs, digital watchers,
+	and the Walkman.
+	
+	* First Personal Computers: Affordable microprocessors led to new products like video games (Pong) and early 
+	home computers (Altair 8800) and game consoles (Atari 2600).
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	TWO DRIVING FORCES OF PROGRESS
+	* Dual Motivation: Rapid advancement was driven by both government funding (enabling early adoption of new
+	technologies) and consumer demand (making technology commercially vitable and reducing costs).
+	
+	* Continuing to This Day: This dual dynamic continues to shape technological development today.

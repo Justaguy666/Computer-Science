@@ -1,0 +1,101 @@
+	THE DEVELOPMENT OF INFORMATION AND TECHNOLOGY IN EDUCATION
+	* The Explosion of Information and Technology:
+		- The rapid advancement of computer technology has created and distributed a massive amount of global information
+		(billions of websites, videos watched daily).
+		
+		- Although information is readily available, effective learning still requires interaction and hands-on
+		experience.
+		
+	* History of Technology in Education:
+		- Technology has supported education for millennia, from cave paintings, writing, and printed books to 
+		correspondence.
+		
+		- Radio and television: Once expected to revolutionize and even replace schools, this did not materialized.
+		They remain supportive tools but cannot replace comprehensive learning experiences.
+		
+	* Tips for Effective Learning from Educational Videos:
+		- Adjust video playback speed: Match your information processing pace.
+		
+		- Pause to reflect: Ask questions, summerize content, or relate it to prior knowledge. This reinforces understanding.
+		
+		- Practice examples/exercises: Apply knowledge immediately to shift from passive to active learning.
+		
+	* Massive Open Online Courses (MOOCs):
+		- A modern form of delivering high-quality education via videos and online platforms.
+		
+		- Initially expected to revolutionize higher education by offering free knowledge to millions.
+		
+		- Challenges: MOOCs face major issues at scale, especially in providing timely and personalized feedback to millions 
+		of students and have low completion rates.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	EDUCATIONAL TECHNOLOGY AND INTELLIGENT TUTORING SYSTEMS (ITS)
+	* Educational Technology (EdTech):
+		- Computer scientists are tackling challenges in MOOCs and education in general, especially issues of feedback
+		and personalization.
+		
+		- Peer Feedback: Students can provide feedback to one another, supported by algorithms that create small groups
+		and automated grading systems.
+		
+	* Intelligent Tutoring Systems (ITSs):
+		- Use AI to provide personalized learning experiences, simulating the role of a private tutor.
+		
+		- ITS adapts content, pace, and teaching methods based on each learner's progress and needs.
+		
+	* Core models of ITS:
+		- Domain Model:
+			+ Represents the knowledge and skills to be learned in a specific subject.
+			
+			+ Includes production rules for problem-solving and common error rules to handle frequent student mistakes.
+			
+			+ helps ITS understand knowledge structures and how students might go wrong.
+			
+		- Student Model:
+			+ ITS maintains a personalized model to track what the student knows, needs improvement on, and common mistakes.
+			
+			+ Bayesian Knowledge Tracing (BKT): A popular technique to estimate a student's knowledge based on their answer.
+			BKT considers:
+				# Probality of guessing.
+				
+				# Probality of slipping (careless errors).
+				
+				# Probality of learning a new skill over time.
+				
+			+ BKT enables ITS to make more accurate assessments, even when answers are corrected by guessing or wrong due
+			to carelessness.
+			
+		- Pedagogical Model: Determines when and how ITS should interact with the student (e.g., when to give hints, 
+		detailed explanations, or move on to the next exercise).
+		
+		- Adaptive Sequencing: ITS supports mastery learning by choosing the best problems to represent at the right time, 
+		ensuring the student masters one skill before progressing to the next.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE FUTURE OF EDUCATIONAL TECHNOLOGY
+	* Educational Data Mining (EDM):
+		- Collects and analyzes data from millions of learners (from MOOCs, ITS, etc.) to discover:
+			+ Common student mistakes.
+			
+			+ How students interact with materials and systems.
+			
+			+ Predictive factors for academic success or failure.
+			
+		- EDM improves course design, tutoring algorithms, and instructional interventions.
+		
+	* Pedagogical Agents: Virtual characters in learning environments that can built trust and relationships with learners, 
+	offering social and emotional support.
+	
+	* New Learning Interfaces:
+		- EdTech is evolving toward large interactive surfaces (e.g., smartboards), mobile devices, Virtual Reality (VR),
+		and Augmented Reality (AR).
+		
+		- These create immersive, interactive, and intuitive learning experiences (e.g., exploring the human body in VR, 
+		learning history via AR).
+		
+	* Brain-to-Brain Learning:
+		- A futuristic concept where new skills and knowledge could be "uploaded" directly into brain, making educational
+		interfaces obsolete.
+		
+		- Still science fiction, but it reflects a long-term vision of deep integration between technology and learning.

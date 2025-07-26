@@ -1,0 +1,129 @@
+	INTRODUCTION TO MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE
+	* Machine Learning (ML):
+		- A subset of artificial intelligence (AI).
+		
+		- Comprises algorithms that allow computers to learn from data without being explicity programmed.
+		
+		- Once trained, these algorithms can make predictions or decisions based on new data.
+		
+		- Common applications: Email spam filtering, recommendation system (videos, products), weather forecasting,
+		medical diagnosis.
+		
+	* Artificial Intelligence (AI):
+		- A broader field aiming to create machines capable of cognitive functions like humans (e.g., learning, 
+		problem-solving, pattern recognition, language comprehension).
+		
+		- ML is one of the key techniques used to achieve AI goals.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	HOW MACHINE LEARNING LEARNS AND CLASSIFIES
+	* Classification:
+		- A common ML task where an algorithm learns to assign labels or categories to new data based on learned patterns.
+		
+		- Algorithms used for this are called classifiers.
+		
+		- Example: Classifying Luna moths vs Emperor moths based on features.
+		
+	* The Learning Process:
+		- Training data: A labeled dataset (e.g., Luna or Emperor moth) collected and annotated by humans (e.g., entomologists).
+		
+		- Features: Attributes or variables of the data used to train the model (e.g., wingspan, weigth of the moth).
+		
+		- Data Visualization: Data can be plotted (e.g., scatter plots) to see relationships between features and class 
+		distribution.
+		
+		- Decision Boundaries: ML algorithms aim to find optimal lines or planes that seperate data classes in 
+		feature space.
+		
+		- Confusion Matrix: A table used to evaluate the performance of a classifier by showing correct and incorrect
+		predictions per class.
+		
+		- Goal: Maximize correct classifications and minimized errors (e.g., misclassifications).
+		
+		- Prediction: After training, the model uses learned decision boundaries to predict labels for unseen data.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	COMMON MACHINE LEARNING TECHNIQUES
+	* Supevised Learning:
+		- The most widely used ML type, where models are trained on labeled data (input-output pairs).
+		
+		- Includes classification (like the moth example) and regression (predicting continous values, e.g., house prices).
+		
+	* Supevised Learning Algorithms:
+		- Decision Trees:
+			+ Simple, intuitive method that splits the decision space into "boxes" or regions based on yes/no questions
+			about features.
+			
+			+ Represented as a tree diagram or code. The algorithm chooses optimal features and thresholds for splitting.
+			
+		- Random Forests:
+			+ An advanced technique using multiple independent decision trees (a "forest") and combining their results
+			for final prediction.
+			
+			+ Helps reduce overfitting and improve accuracy.
+			
+		- Support Vector Machines (SVM):
+			+ Find the optimal hyperplane to seperate data classes in feature space.
+			
+			+ Can use curved boundaries (not limited to straight lines) for complex data.
+			
+	* Artificial Neural Networks (ANNs):
+		- Inspired by the structure and function of neurons in the human brain.
+		
+		- Structure: Composed of artificial neurons organized into layers.
+			+ Input Layer: Receives raw data.
+			
+			+ Hidden Layer: Perform complex computations.
+			
+			+ Output Layer: Produces the final prediction.
+			
+		- Neuron Function: Each neuron takes multiple inputs, multiples them by weigths, adds a bias, and applies an
+		activation function to produce an output signal.
+		
+		- Training: Weights and biases are iteratively adjusted through training (using the backpropagation algorithm) to
+		optimize model performance.
+		
+		- Deep Learning: A branch of ML using neural networks with many hidden layers (deep neural networks)
+			+ Made practical by powerful processors (especially GPUs) and massive data availability.
+			
+			+ Applications: Face recognition, self-driving cars, speech translation, medical diagnosis, natural 
+			language processing (NLP).
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	TYPES OF AI AND THE FUTURE
+	* Types of AI:
+		- Narrow AI / Weak AI:
+			+ Intelligent only in specific and limited tasks.
+			
+			+ Examples: Moth classification system, virtual assistants (Siri, Alexa), recommender systems, chess-playing
+			software.
+			
+			+ Most current AI applications fall into this category.
+			
+		- Strong AI / General AI (GAI):
+			+ Possesses comprehensive intelligence like a human across all cognitive domains.
+			
+			+ Can learn, understand, and apply knowledge to solve problems in diverse contexts.
+			
+			+ Still a research goal, not yet achieved.
+			
+		- Superintelligence (ASI): Hypothetical intelligence far surpassing human capabilities in all areas.
+		
+	* Reinforcement Learning (RL):
+		- A powerful ML approach where an agent learns decision-making via trial and error in an environment.
+		
+		- The agent receives rewards for correct actions and penalties for wrong ones, grandually discovering optimal strategies.
+		
+		- Example: Google's AlphaGo used RL to learn and defeat top Go players in the world.
+		
+	* The Future of AI:
+		- The explosion of digital knowledge and big data provides ideal resources for training powerful AI models.
+		
+		- AI can learn and process information much faster than humans.
+		
+		- Systems like IBM Watsom can gather and synthesize knowledge from millions of sources to answer complex questions.
+		
+		- AI is expected to profoundly impact all areas of human life - from healthcare and education to industry and society.

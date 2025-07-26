@@ -1,0 +1,104 @@
+	FILE FORMATS
+	* Raw Data vs. Formatted Data:
+		Files can obtain arbitrary, unformatted data, but are more useful when organized in specific way,
+		known as a file format.
+		
+	* Examples of Simple File Formats:
+		- .txt (text file):
+			+ Stores text as a list of numbers (binary).
+			
+			+ These numbers are decoded using character encoding standards like ASCII to display as letters.
+			
+		- .wav (audio file):
+			+ Stores audio data.
+			
+			+ Begins with a header containing metadata like bit rate and whether it's mono or stereo.
+			
+			+ Actual audio follows, represented as numbers indicating amplitude samples recorded many times per
+			second.
+		
+		- .bmp (bitmap file):
+			+ Store image data.
+			
+			+ Images are made up of pixels, and each pixel is a combination of red, green and blue light (RGB).
+			
+			+ Like .wav, .bmp starts with metadata (width, height, color depth), followed by RGB values for each
+			pixel.
+			
+	* Binary Nature of Files:
+		- Regardless of format, all files are fundamentally long lists of numbers stored in binary.
+		
+		- The file format is key to interpreting this data meaningfully.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	FILE STORAGE AND ORGANIZATION
+	* Early Storage:
+		- Early computers stored data as a single large file.
+		
+		- As storage grew, multiple files were stored adjacently.
+		
+	* Directory File:
+		- Introduction: A special file called a "directory file" was introduced to manage other files.
+		
+		- Contents: Usually stored at the beginning of the storage device (position 0), it includes file names,
+		extensions (.bmp, .wav) and metadata like creation/modification times, owner, and permissions.
+		
+		- Key Point: Also stores the starting position and length of each file.
+		
+	* File System:
+		- This directory file is part of the file system, managed by the operating system.
+		
+		- The file system is responsible for organizing, storing, and retrieving data on storage devices.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	FEATURES OF MODERN FILE SYSTEMS
+	* Block Storage:
+		- To allow easier edits and prevent overwritting adjacent files, modern systems store files in fixed-size
+		blocks.
+		
+		- This leave some unused "slack" space for future changes.
+		
+	* Non-contiguous Storage (Fragmentation):
+		- Files may be split into parts and stored in non-adjacent blocks.
+		
+		- The directory file must store a list of blocks for each file.
+		
+		- This allows files to grow or shrink by allocating or freeing blocks.
+		
+	* File Deletion:
+		- When a file is deleted, its entry is removed from the directory, and its blocks are marked as free.
+		
+		- Actual data is not immediately erased, which is why forensic experts can sometimes recover "deleted" files.
+		
+	* Fragmentation:
+		- As files are created, modified, and deleted, they can be split into many scattered blocks.
+		
+		- This is called fragmentation and can slow file access, especially on sequential media like magnetic tapes.
+		
+	* Defragmentation: This process rearranges data so that files occupy contiguous blocks, improving read performance.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	HIERARCHY FILE SYSTEMS
+	* Limitations of Flat Systems: Flat systems with all files in one directory are impractical for large storage.
+	
+	* Hierarchical Structure: Modern computers use hierarchical file systems, allowing files to be organized into 
+	folders, which can contain other folders - creating a tree-like structure.
+	
+	* Root Directory:
+		- The directory system must distinguish between files and other directories.
+		
+		- The top-most directory is called the root directory.
+		
+	* Moving Files: Moving a file between folders involves changing directory entries - not necessarily moving
+	the actual data blocks.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	ABSTRACTION
+	* The file system provides a layer of abstraction, hiding raw bits and bytes on physical media and representing
+	organized, easily accessible files.
+	
+	* This allows users and programs to interact with data in a simple, efficent way.

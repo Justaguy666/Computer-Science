@@ -1,0 +1,93 @@
+	THE NEED FOR DATA COMPRESSION
+	* File Size Issue: Large files take up more storage space and require more time to transmit (e.g, downloading
+	email attachments).
+	
+	* Purpose of Compression:
+		- Reduce file size to save storage space.
+		
+		- Speed up data transmission over networks.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	LOSSLESS COMPRESSION
+	* Definition:
+		- This type of compression reduces file size without losing any data.
+		
+		- When decompressed, the file is exactly the same as the original.
+		
+	* Common Techniques:
+		- Run-Length Encoding (RLE):
+			+ Principle: Works well with data that has repeated values, such as images with large areas of the
+			same color.
+			
+			+ How It Works: Instead of storing each pixel individually, it stores the value and how many times 
+			it repeats.
+			
+			+ Example: In a Pac-Man image, 7 consecutive yellow pixels can be stored as "7 yellow" instead of
+			"yellow,yellow,yellow,yellow,yellow,yellow,yellow".
+			
+		- Dictionary Coding (using Huffman Trees):
+			+ Principle: Replaces frequently occuring blocks of data with shorter codes. A dictionary is built
+			where common blocks are assigned shorter codes.
+			
+			+ Assigning Codes: The trees is then used to assign codes, with more common blocks getting shorter 
+			codes (e.g., "yellow yellow" becomes "0").
+			
+			+ Dictionary Storage: The dictionary must be stored along with the compressed data.
+			
+	* File Format Examples: GIF, PNG, PDF, ZIP.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LOSSY COMPRESSION
+	* Definition:
+		- This types removes some information, often data humans are less likely to notice.
+		
+		- It allows for significantly smaller file sizes.
+		
+	* Perceptual Coding:
+		- Main Idea: Exploits how human perception works (e.g., sounds we can't hear well or subtle color changes
+		we don't notice).
+		
+	* Applications in File Types:
+		- Audio Compression (e.g., MP3):
+			+ Hearing Limitation: Humans don't hear all frequencies equally well (e.g., ultrasound).
+			
+			+ Removing Data: Lossy audio compression removes data in frequencies that are hard for us to hear,
+			like very high or deep bass sounds.
+			
+			+ Example: This is why phone calls sound different from live voices - the audio has been compressed.
+			
+			+ Efficiency: MP3 files can be around 10 times smaller than uncompressed audio.
+			
+		- Image Compression (e.g., JPEG):
+			+ Vision Limitations: Our vision is good at detecting sharp contrasts (edges) but not subtle color 
+			differences.
+			
+			+ How It Works: JPEG splits images into blocks (e.g., 8x8 pixels) and remove high-frequency spatial
+			data (fine details) that we're unlikely to notice.
+			
+			+ Efficiency: This greatly reduces file size while preserving the overall image.
+			
+		- Video Compression (e.g., MP4):
+			+ Video is a sequence of images (a series of frames).
+			
+			+ Temporal Redundancy: Many pixels stay the same between frames (like the background). Instead of 
+			re-sending them, video can copy them from the earlier frames.
+			
+			+ Motion Compensation: Tracks moving objects (e.g., a waving hand), defines a "region", and sends 
+			instruction of how it moves (shift, rotate) rather than sending all pixel data for each frame. You're
+			essentially seeing a reused hand from a previous moment.
+			
+			+ Efficiency: MP4 files can be 20 to 200 times smaller than raw video.
+			
+			+ Drawback: Overcompression can lead to noticeable artifacts when algorithms try to predict motion
+			with too little data.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	IMPORTANCE OF COMPRESSION
+	* Compression is for effiently storing and sharing images, music, and videos.
+
+	* Without compression, streaming and data transmission would be extremely difficult and expensive.
+	

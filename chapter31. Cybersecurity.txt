@@ -1,0 +1,162 @@
+	OVERVIEW OF CYBERSECURITY AND ITS MAIN GOALS
+	* What is Cybersecurity?
+		- Cybersecurity is the practice of protecting computer systems, networks, data, and programs from digital attacks,
+		unauthorized access, modification, or destruction.
+		
+		- It encompasses technologies, processes, and controls designed to safeguard information and critical insfrastructure
+		from cyber threats.
+		
+	* Goals of Cybersecurity (CIA Triad):
+		- Confidentiality: Ensures that only authorized individuals can access information. Example: Use strong passwords, 
+		data encryption for sensitive files, or HTTPS for secure communication.
+		
+		- Integrity: Ensures information is accurate, complete, and unaltered by unauthorized users. Example: Use digital 
+		signatures to verify authenticity, checksums or hash functions to detect data changes.
+		
+		- Availability: Ensures authorized user have access to systems and information when needed. Example: Perform data
+		backups, implement redundancy, and protect against denial-of-service attacks (DDoS).
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THREAT MODELING AND AUTHENTICATION
+	* Threat Modeling:
+		- The process of identifying, categorizing, and prioritizing potential threats to a system or application.
+		
+		- Helps understand who the attacker is, what they can do, what they want, and how they might attack (i.e., attack
+		vectors).
+		
+		- Enables the development of proactive and effective defenses.
+		
+	* Authentication:
+		- The process by which a system verifies the identity of a user or device. It is the first step in granting access.
+		
+		- Types of Authentication Factors:
+			+ What you Know (Knowledge Factor):
+				# Examples: Password, PIN, security questions.
+				
+				# Pros: Easy to implement.
+				
+				# Cons: Vulnerable to brute-force and phishing attacks. Strong passwords should be long, complex, and unique.
+				
+			+ What you Have (Possession Factor):
+				# Examples: OTP sent to phone, physical USB key, smart cards.
+				
+				# Pros: Harder to guess, usually requires physical possession.
+				
+				# Cons: Can be stolen, lost, or duplicated.
+				
+			+ Who you are (Inherence Factor):
+				# Examples: Fingerprint, iris scan, face regconition, voice.
+				
+				# Pros: Convenient and secure.
+				
+				# Cons: Costly to implement, possible recognition errors, biometric data can't be reset if compromised.
+				
+		- Multi-Factor Authentication (MFA): Combines two or more authentication factors to enhance security. 2FA (e.g., 
+		password + OTP) is the most common form.
+		
+	---------------------------------------------------------------------------------------------------------------
+		
+	ACCESS CONTROL AND IMPLEMENTATION FLAW MITIGATION
+	* Access Control:
+		- Once a user is authenticated, the system must determine what resources they can access and what they are allowed
+		to do.
+		
+		- Implemented through permissions or Access Control Lists (ACLs).
+		
+		- ACLs list the permissions assigned to users/groups for specific resources (files, folders, applications).
+		
+		- Common Permissions: read, write, execute, modify, delete.
+		
+		- Common Access Control Models:
+			+ RBAC (Role-Based Access Control): Permissions based on the user's role (e.g., Admin, Accountant, Customer).
+			
+			+ DAC (Discretionary Access Control): Resource owners decide who gets access.
+			
+			+ MAC (Mandatory Access Control): Access governed by centralized polices using classification level (e.g., 
+			Top Secret, Secret, Public).
+				# Bell-LaPadula Model: A classic MAC model focused on confidentiality, enforcing "no read up, no write 
+				down".
+				
+	* Mitigating Implementation Flaws:
+		- Software development and deployment errors are a major source of vulnerabilities.
+		
+		- Security Kernel: A minimal, trusted core of the OS that enforces basic security policies.
+		
+		- Independent Code Review: Code is reviewed by third-party experts to detect bugs and vulnerabilities.
+		
+		- Penetration Testing (Pen Test): Simulates hacker attacks to identify exploitable weaknesses.
+		
+		- Bug Bounty Programs: Companies reward security researchers for finding and reporting vulnerabilities.
+		
+		- Security Conferences: Events where experts share insights, new threats, and defense strategies.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	ISOLATION, COMMON THREATS, AND PREVENTIVE MEASURES
+	* Isolation:
+		- Essential technique to limit damage if a component is compromised, preventing attack spread.
+		
+		- Sandbox: A secure, isolated environment to run untrusted code. Used in browsers, antivirus tools.
+		
+		- Virtual Machines (VMs): Emulate multiple isolated OS environments on one physical host.
+		
+		- Containerization (e.g., Docker): Lightweight alternative to VMs, isolates applications but shares the host OS
+		kernel.
+		
+	* Common Threats and Attacks:
+		- Malware: Includes viruses, worms, trojans, ransomware, spyware, adware.
+		
+		- Phishing: Impersonating trusted entities to steal sensitive information or install malware.
+		
+		- DDoS (Distributed Denial of Service) Attacks: Overwhelms a system with fake traffic, denying access to legitmate users.
+		
+		- Social Engineering: Psychological manipulation to extract confidential data or trigger unsafe actions.
+		
+		- MITM (Man-in-the-Middle) Attack: Intercepts or alters communication between two parties undetected.
+		
+		- Zero-day Exploits: Attack unknown or unpatched vulnerabilities.
+			
+	* Basic Preventive Measures for Users:
+		- Use strong, unique passwords; consider password managers.
+		
+		- Always enable MFA for important accounts.
+		
+		- Be cautious with emails, links, or messages from unknown sources.
+		
+		- Regularly update software, browsers, and OS.
+		
+		- Use trusted antivirus and firewall solutions and keep them updated.
+		
+		- Back up important data frequently.
+		
+		- Use a VPN when on public Wi-Fi.
+		
+		- Be mindful before sharing personal information online.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	LAW, ETHICS, AND CONCLUSION
+	* Cybersecurity Laws and Regulations:
+		- Many countries and regions have laws to protect data and combat cybercrime.
+		
+		- Example: The GDPR (EU) protects the privacy and data of citizens.
+		
+		- Vietnam example: The Cybersecurity Law outlines national security measures in cyberspace.
+		
+		- Compliance is mandatory for individuals and organizations to avoid legal consequences.
+		
+	* Ethics in Cybersecurity:
+		- Ethical Hacking: Authorized professional test systems to identify and fix vulnerabilities.
+		
+		- Security Propessionals' Responsibility: Protect data, avoid misuse of power, act within the law.
+		
+		- Users' Responsibility: Protect personal information and avoid harmful online behavior.
+		
+	* Conclusion:
+		- Cybersecurity is a broad, complex, and ever-evolving field requiring deep understanding and constant updates.
+		
+		- It is not solely the responsibility of IT professionals but of every individual and organization.
+		
+		- By applying the CIA Triad, using strong authentication, enforcing accessing control, and taking preventive
+		measures, we can build a safer and more trustworthy cyberspace.

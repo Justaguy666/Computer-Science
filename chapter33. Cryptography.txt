@@ -1,0 +1,103 @@
+	INTRODUCTION TO CRYPTOGRAPHY AND DEFENSE IN DEPTH
+	* Defense in Depth:
+		- A security strategy where multiple layers of defense mechanisms are implemented to protect systems and data.
+		
+		- Similar to how castles were built with multiple defensive layers (walls, moats, gates) to discourage attackers.
+		
+		- The goal is that if one layer is breached, others still exist to stop or slow the attack.
+		
+	* Cryptography:
+		- From Greek: "kryptos" (secret) and "graphein" (to write).
+		
+		- A branch of computer science focused on securing information and communication through the use of codes (ciphers).
+		
+		- Main goals: ensure confidentiality, integrity, authenticity, and non-repudiation of data.
+		
+		- Encryption: The process of converting plaintext into unreadable ciphertext.
+		
+		- Decryption: The reverse process of converting ciphertext back to readable plaintext.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	CLASSICAL AND HISTORICAL ENCRYPTION TECHNIQUES
+	* Substitution Ciphers:
+		- Each character in the original message is replaced with another character based on a fixed rule.
+		
+		- Example: Caesar Cipher: Each letter is shifted by a fixed number of positions in the alphabet (e.g., shift 3:
+		A becomes D, B becomes E).
+		
+	* Transposition Ciphers:
+		- Rearranges the order of characters in the message without changing the characters themselves.
+		
+		- Example: Columnar Transposition Cipher: Message is written in rows and read in columns according to a key order.
+		
+	* Enigma Machine:
+		- A famous encryption device used by Nazi Germany during WWII.
+		
+		- Used multiple rotors and a plugboard to create complex and constantly changing substitution mappings.
+		
+		- Its complex made decryption extremely difficult at the time, but it was eventually broken by Allied cryptographers.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	SYMMETRIC AND ASYMMETRIC CRYPTOGRAPHY
+	* Symmetric Cryptography:
+		- Also known as secret-key cryptography.
+		
+		- Both sender and receiver use the same secret key to encrypt and decrypt messages.
+		
+		- Advantages: Faster encryption/decryption.
+		
+		- Disadvantages: Key distribution problem (how to share the secret key safely over an insecure channel?).
+		
+		- Popular Algorithms:
+			+ Data Encryption Standard (DES): Developed in 1977 using a 56-bit key. Became insecure by 1999 due to advances
+			in computing power.
+			
+			+ Advanced Encryption Standard (AES): Finalized in 2001 with much larger key sizes (128, 192, or 256 bits), 
+			making brute-force attacks impractical. AES balances performance and security and is widely used as the strongest
+			standard today.
+			
+	* Asymmetric Cryptography:
+		- Also known as public-key cryptography.
+		
+		- Uses two mathematically related keys: a public key and a private key.
+		
+		- The public key can be shared openly and is used to encrypted messages. Only the private key can decrypt them.
+		
+		- Conversely, messages encrypted with a private key can be decrypted by the public key. This is used for digital
+		signatures to verify authenticity and integrity.
+		
+		- Advantages: Solves the key distribution issue of symmetric cryptography.
+		
+		- Disadvantages: Slower encryption/decryption.
+		
+		- Popular Algorithms:
+			+ Diffie-Hellman Key Exchange: Allows two parties to agree on a shared secret key over an insecure channel 
+			using one-way functions.
+			
+			+ RSA: The most widely used asymmetric encryption algorithm for secure data transmission, digital signatures,
+			and key exchange.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	APPLICATIONS OF MODERN CRYPTOGRAPHY
+	* Securing Online Communication (e.g., HTTPS): When you connect to a secure website (https://), a complex process
+	involving both symmetric and asymmetric encryption happens:
+		- Server authentication (Asymmetric): Your browser uses the server's public key to verify its identity (via 
+		digital certificates).
+		
+		- Key exchange (Asymmetric - Diffie-Hellman or RSA): Browser and server establish a temporary session key without
+		sending it directly.
+		
+		- Communication encryption (Symmetric - AES): Once the session key is established, all data is encrypted using 
+		fast symmetric algorithms (e.g., AES).
+		
+	* Digital Signatures: Uses asymmetric encryption to ensure the authenticity (who sent it) and integrity (data not
+	altered) of electronic documents.
+	
+	* Cryptocurrencies: Currencies like Bitcoin use cryptographic techniques (especially hashing and digital signatures) to
+	secure transactions and control the creation of new units.
+	
+	* VPN (Virtual Private Network): Uses cryptography to create a secure "tunnel" that encrypts data when connecting to the 
+	Internet, protecting your privacy and security, especially on public Wi-Fi.

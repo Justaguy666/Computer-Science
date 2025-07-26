@@ -1,0 +1,142 @@
+	NETWORK STRUCTURE AND THE JOURNEY OF DATA
+	* Connecting to the Internet:
+		- When you connect to the Internet, your data passes through several network layers. It starts from your Local
+		Area Network (LAN) (e.g., your home Wi-Fi or office Ethernet).
+		
+		- From the LAN, data travels through a router, which connects your local network to the Wide Area Network (WAN)
+		of your Internet Service Provider (ISP).
+		
+		- Eventually, the data reaches the Internet backbone, which consists of high-speed, high-capacity data transmission
+		lines connecting major networks globally.
+		
+		- Example: When you watch a YouTube video, your request goes from your computer, through your router, across your
+		ISP's network, into the Internet backbone, and finally to YouTube's servers. The video data then follows the 
+		reverse path back to your device.
+		
+	* Data Packets and the Internet Protocol (IP):
+		- To efficiently and reliably transmit data over a network, the entire information (e.g., a web page, an email, 
+		part of a video) is broken into smalller units called packets.
+		
+		- Each packet contains a piece of the original data along with a header that includes important information like
+		source and destination addresses.
+		
+		- The Internet Protocol (IP) is a low-level protocol responsible for addressing and routing these packets. Each 
+		device connected to the Internet has a unique IP address (e.g., 172.217.7.238), like a home address on the network.
+		IP ensures that packets are sent to the correct destination.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	TRANSPORT LAYER PROTOCOLS
+	* Packets need to be processed and reassembled at the destination. This is the role of transport layer protocols, 
+	primarily UDP and TCP.
+	
+	* UDP (User Datagram Protocol): Fast but Unreliable
+		- UDP is a simple and fast protocol built on top of IP.
+		
+		- Function: UDP adds port numbers to packets to direct them to the correct application (e.g., port 80 for web, 
+		port 25 for email). It also includes a checksum for basic error detection.
+		
+		- Characteristics:
+			+ Connectionless: No connection is established before sending data.
+			
+			+ Unreliable: There's no guarantee that packets will arrive, arrive in order, or be retransmitted if lost.
+			It's like sending a letter without tracking.
+			
+		- Applications: Suitable for apps that require speed and can tolerate some data loss, such as live video streaming,
+		oline gaming, or Skype.
+		
+	* TCP (Transmission Control Protocol): Reliable and Ordered
+		- TCP is used for applications that require reliable and ordered data transmission.
+		
+		- Function: TCP adds critical features to IP:
+			+ Sequence Numbers: Assigns sequence numbers to packets for correct reordering.
+			
+			+ Acknowledgements (ACKs): Confirms receipt of packets. If no ACK is received in time, the packet is retransmitted.
+			
+			+ Congestion Control: Adjusts data flow to prevent network overloaded.
+			
+			+ Flow Control: Ensures the sender doesn't overwhelm the receiver.
+			
+		- Characteristics:
+			+ Connection-oriented: Establishes a virtual connection between devices before data transmission.
+			
+			+ Reliable: Guarantees packets arrive error-free and in the right order.
+			
+		- Applications: Commonly used for web browsing (HTTP/HTTPS), email (SMTP/POP3/IMAP), file transfers (FTP), and most
+		accurate data needs.
+		
+		- TCP/IP: The combination of TCP and IP is known as TCP/IP, the core protocol suite of the Internet.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	DOMAIN NAME SYSTEM (DNS)
+	* The Internet's "Phonebook":
+		- The DNS works like a phonebook for the Internet. Instead of remembering complex IP addresses (e.g., 172.217.8.238),
+		we can use human-friendly domain names (e.g., google.com).
+		
+		- DNS translates domain names into IP addresses so computers can locate and connect to the correct servers.
+		
+	* Hierarchical Structure:
+		- DNS has a tree-like hierarchical structure, starting form Top-Levl Domains (TLDs) like .com, .org, .net, .edu, .gov,
+		or country TLDs like .vn, .uk.
+		
+		- When you type a domain, your browser sends a request to a local DNS server, which the queries other DNS servers until
+		the correct IP is found.
+		
+	---------------------------------------------------------------------------------------------------------------
+
+	OSI MODEL LAYERS
+	* The OSI (Open System Interconnection) model is a 7-layer conceptual framework that helps us understand how different
+	networking functions are organized and interact.
+	
+	* Physical Layer: The lowest layer, handling raw bit transmission over physical media (cables, radio waves, fiber
+	optics). Involves electrical, optical, or radio signals.
+	
+	* Data Link Layer: Ensures reliable transmission between directly connected devices. Deals with MAC addresses, 
+	frame-level error detection/correction, and media access control (e.g., collision detection in Ethernet).
+	
+	* Network Layer: Responsible for routing packets across multiple networks. The IP protocol operates here. It determines
+	the best path from source to destination.
+	
+	* Transport Layer: Enables end-to-end data transmission between applications on different hosts. TCP and UDP work here,
+	handling segmentation, reordering, and error/flow control.
+	
+	* Session Layer: Manages sessions between applications - starting, maintaining, and ending connections. Ensures data
+	streams don't get mixed. Examples: Logging into a website, video calls.
+	
+	* Presentation Layer: Handles data formating to ensure compatibility across systems. Manages encryption/decryption,
+	compression/decompression. E.g., image formats (JPEG, PNG), character encoding (ASCII, Unicode).
+	
+	* Application Layer: The top layer where software applications interact with the network. Common protocols: HTTP/HTTPS,
+	FTP, SMTP, POP3, IMAP, DNS.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	COMMON APPLICATION LAYER PROTOCOLS
+	* HTTP (HyperText Transfer Protocol): The Foundation of the Web
+		- Purpose: The primary protocol for transferring information on the World Wide Web.
+		
+		- How it Works (Request-Response Model): When you enter a URL, the browser sends an HTTP request to a web server.
+		The server processes the request and returns an HTTP response containing the web page content. The browser renders
+		the page.
+		
+		- Stateless: HTTP is stateless—servers don’t remember past requests from the same browser.
+		
+	* HTTPS (HyperText Transfer Protocol Secure): Secure Communication
+		- Purpose: A secure version of HTTP that uses encryption to protect data between browser and server.
+		
+		- Mechanism: Uses encryption protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security) to create
+		a secure communication channel.
+		
+		- Benefits: Ensures encryption (prevents eavesdropping), data integrity (prevents tampering), and authentication 
+		(verifies the website is legitimate). HTTPS URLs start with https:// and display a padlock icon.
+		
+	* Email Protocols:
+		- SMTP (Simple Mail Transfer Protocol): Standard protocol for sending emails between servers. When you send an email, 
+		your client sends it to your provider's SMTP server, which then forwards it.
+		
+		- POP3 (Post Office Protocol version 3): Retrieves emails from the server to your device. Typically removes emails from
+		the server after download.
+		
+		- IMAP (Internet Message Access Protocol): Allows you to access and manage email directly on the server. Changes 
+		sync across devices.

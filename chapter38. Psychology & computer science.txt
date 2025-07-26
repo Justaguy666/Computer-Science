@@ -1,0 +1,107 @@
+	USABILITY AND HUMAN PERCEPTION
+	* Usability:
+		- Refers to how effectively, efficiently, and satisfactorily a product (software, system) can be used to achieve 
+		users' goals.
+		
+		- To create easy-to-use products, it's essential to understand how humans perceive, think, and interact with 
+		information.
+		
+	* The Human Visual System:
+		- Strength: Humans are good at organizing color intensity, making it ideal for visualizing continuous data
+		(e.g., temperature charts, topographic maps).
+		
+		- Weaknesses: Humans are poor at distinguishing between different hues (e.g., green, blue, red), which can cause
+		errors or confusion when displaying continuous data using only color without a clear scale.
+		
+	* Human Perception:
+		- People process and remember information more effectively when it is broken into meaningful chunks (chunking).
+		
+		- Example: Phone numbers are split into parts (e.g., 091-234-5678) to make them easier to remember than a long
+		continuous string.
+		
+		- Interface design application: Grouping related items in computer interfaces (e.g., dropdown menus, similar 
+		function buttons) helps users scan, find, and access information more easily.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	INTERFACE DESIGN BASED ON PSYCHOLOGY
+	* Affordance:
+		- Refers to the properties of an object that suggest how it can be used.
+		
+		- When affordances are well utilized in design, users know what to do just by looking at the object, without needing
+		instructions.
+		
+		- Example: A raise button "affords" pressing. A door handle "affords" grasping and turning.
+		
+		- Application in GUI: Interfaces use affordances to make buttons, sliders, icons, and other elements recognizable
+		and interactive (e.g., floppy disk icon for saving, trash can icon for deleting).
+		
+	* Recognition vs. Recall:
+		- Recognition: The ability to identify something when you see it. Human memory works much better when triggered
+		by a sensory cue or prompt.
+		
+		- Recall: The alibity to retrieve information from memory withou any prompts. This is much harder for people.
+		
+		- Interface design application: User interfaces should prioritize recognition over recall.
+			+ Example: Using visual icons helps users recognize functions instead of remembering complex commands or 
+			syntax.
+			
+			+ Dropdown menus and selection lists are examples of recognition-focused design.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	INTERSECTIONS OF PSYCHOLOGY AND COMPUTER SCIENCE
+	* Affective Computing:
+		- A field that combines psychology, sociology, and computer science.
+		
+		- The goal is to create computer systems that can recognize, intepret, simulate, and influence human emotions.
+		
+		- How it Works: These systems use various sensors to gather data:
+			+ Voice: Analyzing tone, speed, volume.
+			
+			+ Facial video: Analyzing facial expressions (e.g., smiles, frowns, gaze).
+			
+			+ Biometric data: Heart rate, galvanic skin response.
+			
+		- Based on this data, the system predicts the user's emotional state and responds accordingly.
+		
+		- Applications: Adaptive learning systems, customer support, autonomous vehicles (detecting pedestrian emotions),
+		therapy robots.
+		
+	* Computer-Mediated Communication (CMC):
+		- This field studies how people communicate when using computers or digital devices.
+		
+		- Includes both synchronous communication (e.g., video calls, live chat) and asynchronous communication (e.g., 
+		email, forums, social media).
+		
+		- Interesting finding: People tend to self-disclose more and feel less inhibited in computer-mediated conversations
+		compared to face-to-face interactions. This may be due to anonymity or the absence of direct social cues.
+		
+	* Human-Robot Interaction (HRI):
+		- This field explores how humans perceive robot behaviors and appearance, and how robots can interpret human 
+		social cues.
+		
+		- Uncanny Valley:
+			+ A phenomenon where robots or artificial entities that look and more almost like humans become unsetting 
+			and creepy.
+			
+			+ As robots become more human-like, even minor differences become prominent and evoke discomfort.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	ETHICAL ISSUES AND THE FUTURE
+	* Ethical Issues: Computers' ability to detect and respond to human emotions raises critical ethical questions:
+		- How should computers respond to humans?
+		
+		- Should computers be equipped with human-like emotions?
+		
+		- What are the risk of emotional manipulation?
+		
+		- What about privacy when computers collect emotional data?
+		
+	* The Future of the Intersection:
+		- Deep understanding of human psychology is key to designing computer systems that are not only technically 
+		powerful but also user-friendly, intuitive, and responsive to human needs.
+		
+		- Fields like affective computing and HRI will continue evolve, enabling more natural and intelligent human-machine
+		interactions.

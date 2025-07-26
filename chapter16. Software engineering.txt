@@ -1,0 +1,80 @@
+	CHALLENGES IN LARGE-SCALE SOFTWARE DEVELOPMENT
+	* Complexity: Modern software like Microsoft Office can have tens of millions of lines of code.
+	
+	* Beyond Individual Management: The scale and complexity surpass what a single person can manage.
+	
+	* Solution: Software engineering priciples and methods are applied to manage this complexity.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	MODULAR PROGRAMMING AND OBJECT-ORIENTED PROGRAMMING (OOP)
+	* Modular Programming:
+		- Principle: Large programs are broken down into smaller functions or subprograms that are easier 
+		to manage.
+		
+		- Benefits: Simplifies design, coding, and debugging.
+		
+	* Object-Oriented Programming (OOP):
+		- Principle: These subprograms are organized into hierarchical structures called "objects".
+		
+		- Example: A car control software may contain objects for cruise control, engine, etc.
+		
+		- Object Structure: Objects can contain other objects, subprograms, and variables.
+		
+		- Encapsulation: This approach hides complexity by encapsulating details within high-level components.
+		The user of an object only needs to know how to interact with it, not its internal workings.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	COLLABORATION AND APIS
+	* Dividing the Work: Breaking software into smaller units allows teams of programmers to work on different
+	parts simultaneously.
+	
+	* APIs (Application Programming Interfaces):
+		- Definition: APIs define how different parts of code interact and how developers collaborate.
+		
+		- Access Rules: APIs specify whether subprograms are "public" (accessible to other objects) or "private"
+		(accessible only within the object). This prevent misuse and errors.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	TOOLS AND DEVELOPMENT PROCESSES
+	* Intergrated Development Environments (IDEs):
+		- Definition: Specialized applications used to write, organize, compile, and test code.
+		
+		- Features: IDEs provide tools like syntax highlighting, error checking, and debugging tools.
+		
+	* Documentation:
+		- Importance: Essential for understanding code, especially when rewriting old code or onboarding new
+		developers.
+		
+		- Forms: Can include seperate files (like "Readme") or comments directly withn the code.
+		
+	* Source/Version Control Systems:
+		- Definition: Systems that manage code changes in central repository.
+		
+		- Process:
+			+ Developers "check out" code to work on it.
+			
+			+ They later "commit" their changes back to the repository.
+			
+		- Benefits:
+			+ Prevent conflicts when multiple people work on the same file.
+			
+			+ Allows rollback to stable versions if issues arise.
+			
+			+ Tracks who made which changes.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	TESTING AND QUALITY ASSURANCE (QA)
+	* Debugging: The process of finding and fixing bugs in the code.
+	
+	* Quality Assurance (QA): Involves rigorous testing to uncover potential problems and ensure the software
+	behaves correctly under different conditions.
+	
+	* Software Versions:
+		- Alpha Version: Early versions of software, usually buggy, tested internally.
+		
+		- Beta Version: Nearly finished versions released to a wider group (sometimes the public) to find remaining
+		bugs before official launch.

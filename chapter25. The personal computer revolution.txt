@@ -1,0 +1,73 @@
+	THE EARLY DAYS AND COST BARRIERS
+	* High Costs: For the first three decadeds of electronic computing, personal computers were impractical 
+	due to their high costs.
+	
+	* Technological Advancements (early 1970s):
+		- CPU: The emergence of compact, powerful, and affordable single-chip CPUs was a major catalyst.
+		
+		- IC, RAM, ROM: Advances in integrated circuits led to affordable RAM and ROM.
+		
+		- Storage: Reliable and low-cost storage like magnetic taps and floppy disks became available.
+		
+		- Display: Inexpensive displays, often modified televisions, completed the necessary components.
+		
+	* The Rise of Microcomputers: The combination of these cheaper components led to the creation of "microcomputers",
+	so named for their small size compared to existing systems. More importantly, they became affordable for individuals.
+
+	---------------------------------------------------------------------------------------------------------------
+	
+	PIONEERING PERSONAL COMPUTERS
+	* Altair 8800 (1975):
+		- Widely considered the first commercially successful personal computer, the Altair 8800 was sold as a 
+		built-it-yourself kit.
+		
+		- Its popularity sparked the creation of add-ons and a community of enthusiasts.
+		
+	* The Birth of Microsoft: Bill Gates and Paul Allen developed a BASIC interpreter for the Altair 8800, making
+	it more user-friendly. This became the first product of their newly formed company, Microsoft.
+	
+	* Homebrew Computer Club & Apple:
+		- This influential club was a hub for computer enthusiasts. Steve Wozniak, inspired by the Altair 8800,
+		designed his own computer.
+		
+		- Apple I (1976): Wozniak, together with Steve Jobs, decided to sell assembled circuit boards. Users still
+		needed to supply their own keyboard, power supply, and case. This was the first production of Apple Computer.
+		
+	* The "Trinity" of 1977: Three game-changing computers were released:
+		- Apple II: Apple's first fully assembled systems, featuring color graphics and sound output, became a 
+		massive success.
+		
+		- TRS-80 Model 1: A more affordable, less advanced option sold by Radio Shack.
+		
+		- Commodore PET 2001: With an all-in-one design, it blurred the line between computers and appliances.
+		
+		- These machines came with BASIC interpreters, fueling a consumer software industry including games and 
+		productivity tools like VisiCalc, the first spreadsheet program.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	IBM ENTERS THE MARKET AND OPEN ARCHITECTURES
+	* IBM Joins the Game: IBM, seeing its market share decline dur to microcomputers, decided to enter the
+	personal computing space.
+	
+	* IBM PC (1981): Developed by a small, independent team, the IBM PC used off-the-shelf components (like Intel
+	chips and Microsoft's DOS) to keep costs low. It was an instant success, especially among businesses.
+	
+	* Open Architecture: IBM's PC open architecture, with thorough documentation, allowed third-party companies to create
+	compatible hardware and peripherals, driving innovation and a large ecosystem. This led to "IBM-compatible" machines.
+	
+	* The Rise of IBM-Compatible Computers and Microsoft's Dominance: Companies like Compaq and Dell began selling
+	their own IBM PC clones, often running Microsoft's MS-DOS, which quickly became the most popular PC operating sytem.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	APPLE'S ALTERNATIVE STRATEGY AND THE THE MAC VS. PC WAR
+	* Apple's Closed Architecture: Apple maintained a significant market share by taking the opposite approach: a closed
+	architecture with proprietary designs. This allowed Apple to control the entire user experience, from hardware 
+	to software.
+	
+	* The "Mac vs. PC" War: This philosophical divide (open vs. closed architecture) formed the basis of an going 
+	rivalry between Macs and PCs.
+	
+	* Apple Macintosh (1984): To compete with affordable PCs, Apple released the Macintosh - an all-in-one computer
+	with a revolutionary graphical user interface instead of a text-based command line.

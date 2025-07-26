@@ -1,0 +1,89 @@
+	INTRODUCTION TO THE CPU
+	* Definition: The CPU (Central Processing Unit), often reffered to as the brain of the computer, is responsible
+	for executing all instructions in a computer program, processing data, and coordinating the actions of other
+	components.
+	
+	* Core Roles:
+		- Executes software programs.
+		
+		- Perform arithmetic and logic operations.
+		
+		- Coordinate the operations of the entire computer system.
+		
+	---------------------------------------------------------------------------------------------------------------
+		
+	KEY COMPONENTS OF THE CPU
+	* Registers:
+		- Definition: Small, extremely fast memory unit located inside the CPU.
+		
+		- Function: Temporarily store data and instructions that the CPU is currently processing or about
+		the process.
+		
+		- Advantage: Much faster access speed than RAM.
+		
+		- Important Type of Registers:
+			+ Instruction Register (IR): Stores the current instruction being executing by the CPU.
+			
+			+ Instruction Address Register (IAR) / Program Counter (PC): Holds the memory address of the next
+			instruction to be fetched.
+			
+			+ Data Registers: Temporarily store data.
+			
+	* Arithmetic Logic Unit (ALU): This component performs all arithmetic and logic operations.
+	
+	* Control Unit (CU):
+		- Definition: Manages and coordinates all operations inside the CPU and between the CPU and other
+		computer components.
+		
+		- Functions:
+			+ Decode instruction.
+			
+			+ Generate control signals for other components (ALU, registers, memory).
+			
+			+ Control data flow.
+			
+	* Random Access Memory (RAM):
+		- Although not part of the CPU, RAM is the main memory the CPU directly interacts with to fetch 
+		programs and data.
+		
+		- RAM stores running programs and data for quick CPU access.
+		
+	* Clock:
+		- Definition: An electrical circuit that generates regular pulses to synchronize all CPU activities.
+		
+		- Speed: Measured in Hertz (Hz), Kilohertz (KHz), Megahertz (MHz), Gigahertz (GHz). A higher clock
+		speed means the CPU can execute more instructions per second.
+		
+		- Overclocking: Increasing the CPU clock speed beyond its default limit to gain higher performance.
+		May lead to overheating and instability.
+		
+		- Dynamic Frequency Scaling: The CPU automatically adjust its clock speed to save energy when performance
+		is not needed, or to boost speed when processing demands are high.
+		
+	---------------------------------------------------------------------------------------------------------------	
+	
+	THE CPU INSTRUCTION EXECUTION CYCLE (FETCH - DECODE - EXECUTE)
+	* Fetch Stage:
+		- The CPU uses the address from the IAR/PC to fetch the next instruction from RAM.
+			
+		- The instruction is stored in the IR.
+			
+		- The IAR/PC is then updated to point to the next instruction.
+			
+	* Decode Stage:
+		- The CU analyze the fetched instruction in the IR.
+			
+		- It determines the instruction type (e.g., ADD, LOAD, STORE) and its operands (data or memory 
+		addresses).
+			
+		- The CU generates appropriate control signals to prepare for execution.
+			
+	* Execute Stage: Based on CU control signals, the ALU or other parts of the CPU perform the operations specified
+	by the instruction.
+	
+	* Repeat the Cycle: After one instruction is executed, the CPU goes back to the fetch stage to get the next
+	instruction, and the cycle continues until the program ends.
+	
+	* While mordern CPUs are far more complex, the fundamental principles of the Fetch-Decode-Execute cycle and the roles
+	of main components remain the same.
+	

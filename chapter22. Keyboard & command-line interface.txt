@@ -1,0 +1,72 @@
+	EARLY INPUT/OUTPUT
+	* Initial Methods: Early computers used physical controls like gears and switches for input and output.
+	
+	* Punched Cards and Magnetic Tape:
+		- Later, punched cards and magnetic tape became common for storing programs and data.
+		
+		- Output was provided through paper printouts and indicator lights.
+		
+	* Computer-Centric Design: These early systems were designed for the convinience of the computer, not the
+	user.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE SHIFT TO INTERACTIVE COMPUTING
+	* Interactivity: In the late 1950s, smaller and more affordable computers, as well as faster and more powerful
+	mainframes, led to interactive computing - users could now exchange input and output with the machine in real time.
+	
+	* Demand for New Input Methods: This shift required new ways for users to input data.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE RISE OF THE KEYBOARD
+	* Primary Input Device: The keyboard, borrowed from the typewriter, became a major input device.
+	
+	* History of the QWERTY Layout:
+		- Christopher Latham Sholes: Invented the modern typewriter in 1868 and created the QWERTY layout.
+		
+		- Switching Costs: Although other layouts were proposed, QWERTY remained due to "switching costs" - people
+		didn't want to relearn typing.
+		
+	* Speed Improvements: The development of ten-finger typing techniques significantly improve input speed.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	TELETYPE MACHINES AND COMMAND-LINE INTERFACES (CLI)
+	* Adapting the Teletype: Early computer interfaces adapted the Teletype - a mechanical typewriter used
+	for telegraphy.
+	
+	* Command-Line Interfaces (CLIs):
+		- This led to the development of the CLI, where users typed commands, pressed enter, and the computer
+		responded with text.
+		
+		- Dominance: This was the primary interaction method until the 1980s.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE SHIFT TO DISPLAYS
+	* Early Displays: Although screens emerged in the 1950s, they were initially expensive and had low resolution.
+	
+	* Screen-Based Terminals:
+		- By the 1970s, advances made screen-based terminals economically viable, replacing electromechanical 
+		Teletypes.
+		
+		- Emulation: Early screen interfaces often simply emulated the text-based Teletype protocol.
+		
+	* Text-Based Games:
+		- Despite the limitations of text-only interaction, programmers created immersive text adventure games
+		like "Zork" (originally "Adventure" or "Colossal Cave Adcenture").
+		
+		- These games relied heavily on the player's information.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE ONGOING RELEVANCE OF THE CLI
+	* Power and Relevance: Through simple, the CLI remains powerful and relevant - especially for programmers 
+	and remote system access.
+	
+	* CLI in Modern OSes: Modern OSes still include CLIs.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LOOKING AHEAD: while the keyboard and CLI are foundational, computers have so far lacked graphics.

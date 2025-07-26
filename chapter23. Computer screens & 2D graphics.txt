@@ -1,0 +1,90 @@
+	EARLY COMPUTER SCREENS
+	* Limitation in Text Display: Early computer screens struggled to display sharp text, making printed paper
+	clearer in comparison.
+	
+	* Original Purpose of Screens: Initially, screens were mainly used to monitor program activity (e.g., 
+	register values), as printing such information was slow and wasteful.
+	
+	* Cathode Ray Tube (CRT): The most influential early display technology was the CRT, which worked by shooting
+	electrons at a phosphor-coated screen.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	GRAPHICS RENDERING METHODS ON CRT
+	* Vector Scanning:
+		- Principle: Directing the electron beam to draw shape. Repeating paths created visible images.
+		
+		- Advantages: Produced crisp, clear lines.
+		
+	* Raster Scanning:
+		- Principle: Repeatedly scanned the screen line by line, activating the beam at specific points to 
+		render graphics.
+		
+		- Advantages: Could display both shapes and text; foundational to modern displays.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	MEMORY LIMITATIONS AND SOLUTIONS
+	* Memory Constraints: Early computers had very limited memory, making pixel-based (raster) graphics 
+	resource-intensive. A 200x200 monochrome image consumed a significant portion of available RAM.
+	
+	* Storing Characters Instead of Pixels: To conserve memory, early systems stored grids of characters instead
+	of invidual pixels.
+	
+	* Character Generators: 
+		- Principle: Hardware read character codes from RAM and converted them into raster graphics to display.
+		
+		- Function: These were essentially the first graphics cards, using ROM to store pixel patterns for each
+		character.
+		
+	* Screen Buffer: A dedicated memory area for graphics was called the screen buffer.
+	
+	* Character-Based Graphics Interfaces: Early GUI were created using ASCII characters. Extended sets like 
+	IBM's CP437 added more graphical characters.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	VECTOR GRAPHICS FOR COMPLEX SHAPES
+	* Vector Mode: To draw arbitrary shapes without consuming large amounts of memory, CRTs used vector mode, 
+	where graphics were defined by sequences of lines.
+	
+	* Drawing Commands: Commands like "reset", "move to coordinate", and "set line brightness" were used to draw
+	shapes - far more memory-efficient than storing pixel matrices.
+	
+	* Vector Graphics Cards: These vector instructions were stored in memory and displayed by vector graphics
+	cards, enabling updates and animation.
+	
+	* Example: The first video game, Spacewar! (1962), used vector graphics.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	INTERACTIVE GRAPHICS AND SKETCHPAD
+	* Ivan Sutherland's Sketchpad (1962): A groundbreaking interactive graphical interface, regarded as 
+	the earliest example of a complete graphics application.
+	
+	* Light Pen: Sketchpad used a light pen - an input device that detected screen refresh to determine its 
+	position - allowing users to draw lines and shapes.
+	
+	* Sketchpad's Capabilities: Allowed users to make precise drawings, adjust scale, save, and reuses designs - marking
+	a significant shift in how computers could be used.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BITMAP (PIXEL-BASED) GRAPHICS
+	* Emergence: True bitmap graphics - where memory was directly mapped to screen pixels - appeared in the late
+	1960s.
+	
+	* Frame Buffer: Enabled display of arbitrary, complex images. The pixel data area called the frame buffer.
+	
+	* Video RAM (VRAM): Early systems used main RAM; later systems had high-speed VRAM on dedicated graphics cards.
+	
+	* Graphics Libraries: Provided built-in functions to draw, abstracting away low-level pixel handling.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE DAWN OF THE GRAPHICAL USER INTERFACE (GUI)
+	* The Situation in 1971: Despite advances, by 1971 only a small percentage of U.S. computers had interactive
+	graphical displays.
+	
+	* GUI Foundations: However, innovations like Sketchpad and Spacewar! laid the foundation for the emergence of 
+	graphical user interfaces.

@@ -1,0 +1,109 @@
+	EALY PROGRAMMING MACHINES
+	* Jacquard Loom (1801):
+		- Concept: One of the first machines with programmable capability.
+		
+		- How It Worked: Used punched cards to control weaving patterns in fabric. The presence or absence
+		of a hole on the card determined the position of threads - similar to how binary data works (1 = hole;
+		0 = no hole).
+		
+		- Significance: Demostrated that the need and idea for programming existed long before electronic computers.
+		
+	* Punched Cards for Data (U.S. Census 1890):
+		- Application: Nearly a century later, punched cards were used by Herman Hollerith in the 1890 U.S.
+		Census to tabulate data.
+		
+		- How It Worked: Each card stored information about one individual, with holes representing answer
+		to demographic questions.
+		
+		- Limitation: These machines could summarize data but were not programmable in the modern sense - their
+		function were fixed.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	PROGRAMMING WITH PHYSICAL WIRING
+	* Plugboard Programming:
+		- Context: As business machines evolved to perform arithmetic, plugboard programming emerged.
+		
+		- How It Worked: Programmers physically plugged wires into control panels to route values and signals
+		between different machine parts.
+		
+		- Limitation: Changing tasks required rewiring the entire machine - complex and time-consuming.
+		
+		- Example: IBM 403 accounting machine from the 1940s.
+		
+	* ENIAC and Programmable Challenges:
+		- ENIAC (Electronic Numerical Integrator and Computer): The first electronic computer, completed in 
+		1946, also used plugboards for programming.
+		
+		- Issue: Setting up a program on the ENIAC could take up to three weeks - highly inefficent given the
+		machine's high operational costs.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE ERA OF STORED-PROGRAM COMPUTERS
+	* The Rise of Electronic Memory: In the late 1940s and 1950s, the development of electronic memory
+	revolutionized programming.
+	
+	* The Concept of the "Stored Program":
+		- Meaning: Programs could be stored directly in the computer's memory, just like data.
+		
+		- Benefits:
+			+ Programs could be changed more easily.
+			
+			+ The CPU could access instructions much faster.
+			
+	* Von Neumann Architecture:
+		- Inventor: John Von Neumann (with others).
+		
+		- Core Principle: A computer architecture where both instructions and data are stored in the same 
+		memory space and accessed via the same bus.
+		
+		- Main Components:
+			+ Processing unit: Includes the ALU, data registers, instruction registers, address register.
+			
+			+ Memory Unit: Stored both programs and data.
+			
+			+ Control Unit.
+			
+			+ Input/Output Devices.
+			
+		- First Example: The Manchester Baby (1948) was the first computer to implement this architecture.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	PROGRAM INPUT/OUTPUT METHODS AFTER VON NEUMANN ARCHITECTURE
+	* Punched Cards for Program I/O:
+		- Despite electronic memory, punched cards remained a common way to load programs into computers until
+		the 1980s.
+		
+		- How It Worked: A card reader would read the holes and store the program into memory.
+		
+		- Challenge: Programs could be very long, requiring many cards. Dropping a card stack could be disastrous.
+		
+		- Tip: Draw a diagonal line across the card stack to help reorder them if dropped.
+		
+		- Output: Punched cards were also used to print results.
+		
+	* Punched Paper Tape: A similar alternative to punched cards but in the form of a continous tape.
+	
+	* Programming Using Front Panels with Switches:
+		- Context: Popular for early personal computers, especially among enthusiasts.
+		
+		- How It Worked: Users manually flipped switches to input binary opcodes  for each instruction, then
+		pressed a button to load it into memory.
+		
+		- Limitation: Extremely tedious and time-consuming.
+		
+		- Famous Example: Altair 8800 (1975).
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE NEED FOR SIMPLER PROGRAMMING
+	* Early Programming Challenges:
+		- Required deep knowledge of computer hardware (processor, registers).
+		
+		- Difficult and tedious, even for experts.
+		
+	* Inevitable Need: This created a major demand for simpler ways to instruct computers, leading to the development
+	of programming languages.
+	

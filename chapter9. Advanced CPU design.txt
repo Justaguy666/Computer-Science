@@ -1,0 +1,86 @@
+	EARLY METHODS FOR ENCHANCING CPU PERFORMANCE
+	* Improving Transistor Switching Speed: Initially, the simplest way to make CPUs faster was to increase the
+	switching speed (on/off) of transistors. This was achieved through transistor miniaturization and material
+	improvements.
+	
+	* Specialized and More Complex Instruction Sets:
+		- Modern CPUs have dedicated circuits for specific tasks such as graphics processing, video decoding,
+		and data encryption/decryption.
+		
+		- This has led to larger and more complex instruction sets, allowing CPUs to perform these tasks more
+		efficiently.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	OVERCOMING THE RAM BOTTLENECK: CACHE MEMORY
+	* RAM Bottleneck: As CPUs became faster, accessing data from the main RAM becam a major bottleneck.
+	RAM is significantly slower than the CPU due to physical distance and latency.
+	
+	* Cache Memory:
+		- Definition: A small, extremely fast memory located directly on the CPU chip.
+		
+		- How It Works:
+			+ When the CPU requests data, a block of related data (not just the requested piece) is loaded
+			into from RAM into the cache.
+			
+			+ Cache Hit: If the CPU finds the needed data in the cache, access is very fast.
+			
+			+ Cache Miss: If the data isn't in the cache, the CPU must wait for it to load from RAM, after which
+			it's stored in the cache for future access.
+			
+			+ Dirty Bit: A bit used to track whether data in the cache has been modified. If so, it must be written
+			back to RAM before being replaced.
+			
+		- Cache Levels: Modern CPUs usually feature multiple cache levels (L1, L2, L3) - L1 being the smallest and
+		fastest, L3 the largest and slowest.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BOSTING PERFORMANCE THROUGH INSTRUCTION-LEVEL PARALLELISM
+	* Instruction Pipelining:
+		- Concept: Break the instruction execution process into multiple stages (e.g., fetch, decode, execute) and 
+		overlap them like an assembly line.
+		
+		- Benefits: Increases the number of instructions completed per clock cycle (IPC), through it may not shorten
+		the time to complete a single instruction.
+		
+		- Challenges:
+			+ Data Dependencies: Occur when an instruction needs the result of a previous instruction that hasn't completed,
+			potentially causing pipeline stalls.
+			
+			+ Out-of-Order Execution: Advanced CPUs can reorder instruction (if there are no dependencies) to reduce stalls.
+			
+	* Branch Prediction and Speculative Execution:
+		- Problem: Conditional branch instructions disrupt the pipeline because the CPU doesn't know which path will
+		be taken.
+		
+		- Speculative Execution: The CPU predicts the path and begins fetching and executing instructions accordingly.
+		
+		- Branch Prediction: Complex algorithms improve prediction accuracy (often > 90%).
+		
+		- Misprediction Handling: If the prediction is wrong, the pipeline must be flushed and corrected instructions
+		reloaded, wasting time.
+		
+	* Superscalar Processors:
+		- Concept: These processors have multiple execution units (e.g., several ALUs), allowing them to execute more
+		than one instruction per clock cycle.
+		
+		- Benefit: Significantly increases IPC.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	EXPANDING PROCESSING POWER: MULTI-CORE AND MULTI-CPU
+	* Multi-Core Processors:
+		- Concept: Modern CPUs often contain multiple independent processing units (cores) on a single chip.
+		
+		- Benefit: Enables the execution of multiple instruction streams in parallel - ideal for applications
+		that can be divided into independent tasks.
+		
+	* Multi-CPU Systems and Supercomputers:
+		- Multi-CPU Systems: To achieve even greater processing power, computer systems can use multiple physcial
+		CPUs.
+		
+		- Supercomputers: Masive computer systems housing tens of thousands of CPUs with millions of cores, capable
+		of performing quadrillions of calculations per second. Used for intensive computations such as climate modeling,
+		scientific research, and complex simulation.
+	

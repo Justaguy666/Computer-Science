@@ -1,0 +1,103 @@
+	THE APPLICATION LAYER IN THE OSI MODEL
+	* Introduction:
+		- In the OSI (Open Systems Interconnection) model, the application layer is the top most layer, where software 
+		applications interact directly with the network.
+		
+		- It provides network services to end-users and applications.
+		
+		- Protocols at this layer focus on specific user tasks, such as web browsing, email sending, and file transfers.
+		
+	* HTTP (HyperText Transfer Protocol): The Foundation of the World Wide Web
+		- Purpose: HTTP is the main protocol used to transmit information on the World Wide Web. It is the foundation
+		for how browsers request and display web pages.
+		
+		- How It Works (Request-Response Model):
+			+ When you enter an URL in your browser, it creates an HTTP Request.
+			
+			+ This request includes details like the web address, request method (GET to retrieve a page, POST to send data),
+			and other info (headers).
+			
+			+ The request is sent to the corresponding Web Server.
+			
+			+ The server processes the request, locates the requested page (usually an HTML file), and returns an HTTP Response.
+			
+			+ This response includes a status code (e.g., 200 OK for success, 404 Not Found if the page doesn't exist) and the content
+			of the web page.
+			
+			+ The browser receives the response, parses the HTML, CSS, and JavaScript, and renders the page for you.
+			
+		- Statelessness: HTTP is stateless, meaning the server doesn't "remember" previous requests from the same browser.
+		Each request is handled independently. Mechanisms like cookies are used to maintain state (e.g., shoping carts,
+		login info).
+		
+	* HTTPS (HyperText Transfer Protocol Secure): Secure Communication
+		- Purpose: HTTPS is the secure version of HTTP, using encryption to protect data transmitted between the browser and
+		the server.
+		
+		- Mechanism: HTTPS uses encryption protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security) to create
+		a secure communication channel.
+		
+		- Benefits:
+			+ Encryption: Prevents eavesdroppers from accessing sentisive information (passwords, credit card numbers).
+			
+			+ Data Integrity: Ensures that data is not altered during transmission.
+			
+			+ Authentication: Helps verify that you're connecting to the legitimate server, not the fake one.
+			
+		- How to Recognize: HTTPS websites start with https:// and often show a padlock icon in the browser's address bar.
+		
+	---------------------------------------------------------------------------------------------------------------
+		
+	THE WORLD WIDE WEB (WWW)
+	* Introduction:
+		- The World Wide Web (often shortened to "the Web") is a global information system accessible via the Internet.
+			
+		- It was invented by Tim Berners-Lee in 1989 while working at CERN.
+			
+	* Key Components of the Web:
+		- HTML (HyperText Markup Language): The markup language used to structure and present web content.
+			
+		- URL (Uniform Resource Locator): The unique address for each resource on the Web.
+			
+		- HTTP/HTTPS: The protocols for transmitting information.
+			
+		- Web Browser: The client application that allow users to view and interact with web pages (e.g., Chrome, Firefor).
+			
+		- Web Server: The program or machine that hosts web pages and responds to HTTP requests from browsers.
+			
+	---------------------------------------------------------------------------------------------------------------
+		
+	EMAIL PROTOCOLS
+	* SMTP (Simple Mail Transfer Protocol): Sending Email
+		- Purpose: SMTP is the standard protocol for sending email between mail servers.
+			
+		- How It Works: When you send an email, your email client sends it to your provider's SMTP server, which then forwards
+		it to the recipient's SMTP server.
+			
+	* POP3 (Post Office Protocol 3): Receiving Email (Download)
+		- Purpose: POP3 is used to retrieve emails from the server to your local device.
+			
+		- How It Works: With POP3, emails are downloaded and usually deleted from the server afterward. You can only access
+		the email from the device where it was downloaded.
+			
+	* IMAP (Internet Message Access Protocol): Receiving Email (Synchronization)
+		- Purpose: IMAP allows you to access and manage emails directly on the server.
+			
+		- How It Works: Emails remain on the server. Any changes you make (read, delete, move emails) are synced with the 
+		server, enabling access from multiple devices with consistent status.
+			
+	---------------------------------------------------------------------------------------------------------------
+		
+	OTHER HIGHER LAYERS IN THE OSI MODEL
+	* Session Layer:
+		- Function: Establishes, manages, and terminates communication sessions between applications on different machines.
+		
+		- Example: DNS lookup or web page requests typically occur within the context of a session.
+		
+	* Presentation Layer:
+		- Function: Ensures data is presented in a format understandable by the Application Layer. It handles encoding/decoding,
+		compression/decompression to maintain compatibility across systems.
+		
+		- Example: File format conversion (JPEG to PNG), character encoding (ASCII to Unicode).
+		
+	* Application Layer: Provides interfaces and services for end-users and applications.

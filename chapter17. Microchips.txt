@@ -1,0 +1,94 @@
+	EARLY COMPUTERS AND THE NEED FOR MINIATURIZATION
+	* First-generation Computers (1940s - 1960s):
+		- Structure: Built using discrete components such as vacuum tubes, resistors, and capacitors.
+		
+		- Limitations: Required millions of manual solder joints, making them large, complex, and prone to 
+		failure.
+		
+	* Transistors (Second Generation):
+		- Replacement: Transistors replaced vacuum tubes, making computers smaller, faster, and more reliable.
+		
+		- Challenge: They were still discrete components, and connecting thounsands of them remained a major 
+		issue - known as the "tyranny of numbers".
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE INVENTION OF THE INTEGRATED CIRCUIT (IC)
+	* Jack Killby (1958): Demonstrated that all parts of an electronic component could be built into a single 
+	entry - this was the birth of the integrated circuit (also called a microchip).
+		
+	* Robert Noyce (1959): Just months later, Noyce made the IC practical by using silicon instead of germanium.
+	Noyce is often credited as the father of the modern IC.
+	
+	* Benefits of ICs: Allowed the packaging of multiple components into a single unit, simplifying circuit desgin.
+	
+	* Printed Circuit Boards (PCBs):
+		- Development: PCBs were developed to connect these ICs, replacing complex wiring systems with etched
+		metal pathways.
+		
+		- Result: Smaller, cheaper, and more reliable circuits.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	PHOTOLITHOGRAPHY: THE CORE MANUFACTURING PROCESS
+	* Definition: To produce more complex ICs with millions of transistors, a technique called photolithography
+	was developed.
+	
+	* Main Steps Include:
+		- Silicon Wafer Preparation: Begin with a thin silicon wafer.
+		
+		- Coating: Applying a layer of oxide, followed by a light-sensitive meterial called photoresist.
+		
+		- Exposure: Use a photomask to expose specific regions of the photoresist to light, disolving those regions.
+		
+		- Developing: Wash away the exposed photoresist, revealing parts of the oxide layer.
+		
+		- Etching: Etch away the exposed oxide to create patterns on the silicon.
+		
+		- Doping: Change the electrical properties of specific regions through a high-tempurature gas process.
+		
+		- Repeating: Repeat these steps with different masks to build layers of transistors and other components.
+		
+		- Metallization: Finally, metal lines are added to connect different parts of the chip.
+		
+	* Result: This technique enables the creatation of millions of microscopic transistors and their connections
+	on a single silicon chip.
+	
+	* Packaging: After processing, the wafer is cut into individual ICs, which are then packaged.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	MOORE'S LAW AND THE GROWTH OF TRANSISTOR DENSITY
+	* Moore's Law:
+		- Observation: In 1965, Gordon Moore noted that the number of transistors on a chip double roughly
+		every two years.
+		
+		- Impact: Led to exponential increases in CPU power and reduction in cost.
+		
+		- Additional benefits: Smaller transistors switch faster and use less energy.
+		
+	* The First Mircoprocessor: The Intel 4004, launched in 1971, was the first processor on a single chip,
+	containing 2300 transistors - marking the start of the third generation of computers.
+	
+	* Transistor Explosion:
+		- Transistor count grew rapidly: 30000 in 1980, 1 million in 1990, 30 million in 2000, and 1 billion
+		by 2010 per chip.
+		
+		- Modern CPUs, such as those in the iPhone 7, may contain billions (e.g., 3.3 billion transistors).
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	VLSI AND THE FUTURE
+	* Very Large-Scale Integration (VLSI): VLSI software, starting in the 1970s, automated the design of complex
+	chips, marking the fourth computer generation.
+	
+	* Challenges to Moore's Law:
+		- Physical limits of photolithography: The wavelength of light used for etching is becoming a constraint.
+		Researches are working on smaller-wavelength light sources.
+		
+		- Quantum tunneling effect: As transistors shrink to atomic levels, electrons can "jump" across gaps,
+		making them unreliable.
+		
+	* Future Solutions: Despite these challenges, researchers are exploring new approaches. Transistors as small
+	as 1 nanometer have been demonstrated, through mass production is still uncertain.
+	

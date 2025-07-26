@@ -1,0 +1,91 @@
+	EARLY STORAGE TECHNOLOGIES
+	* Punched Cards:
+		- Description: The earliest form of computer storage, made of paper with holes representing data.
+		
+		- Capacity: A large program like the U.S. military's SAGE air defense system used 62,500 cards - about
+		5 megabytes of data.
+		
+		- Advantages: Cheap and did not require electricity.
+		
+		- Disadvantages: Slow and write-once only.
+		
+	* Delay Line Memory:
+		- Development: Invented by J. Presper Eckert.
+		
+		- Priciple: Used a liquid-filled tube (e.g., mercury) with a speacker at one end and a microphone at 
+		the other. Electrical pulses created pressure waves, and the travel time of the waves represented data.
+		
+		- Capacity: EDVAC computer used this and stored around 45,000 bits.
+		
+		- Main Limitation: Sequential access - data must be read from the beginning until the desired item is found.
+		
+	* Magnetic Core Memory:
+		- Principle: Used small magnetic rings (cores) that could be magnetized in one of two directions to store
+		a bit (1 or 0).
+		
+		- Advantages: Dominant random-access memory technology from the mid-1950s for about two decades.
+		
+		- Cost: Initially expensive (1$/bit), but dropped to about 1 cent/bit by the 1970s.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	ADVANCES IN MAGNETIC STORAGE
+	* Magnetic Tape:
+		- Introduction: Released with the UNIVAC computer, using a thin, flexible magnetic strip stored on a reel.
+		
+		- Capacity: Higher capacity (~15 million bits or nearly 2MB per reel), affordable, and still used today for
+		archival storage.
+		
+		- Main Drawback: Slow, sequential access.
+		
+	* Magnetic Drum Memory:
+		- Principle: A rotating metal cylinder coated with magnetic material and read/write heads aligned along its
+		length.
+		
+		- Capacity: By 1953, devices could store 80,000 bits (10KBs).
+		
+	* Hard Disk Drives (HDDs):
+		- Evolution: Evolved from magnetic drums, using flat, rotating disks coated with magnetic meterial.
+		
+		- History: First computer with HDD was the IBM RAMAC 305 in 1956, with 50 disks storing around 5MBs.
+		
+		- Adoption: Became mainstream in the 1970s, now store TBs at very low cost.
+		
+	* Floppy Disks:
+		- Features: A portable magnetic storage medium, widely used from the mid-1970s to mid-1990s.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	OPTICAL STORAGE
+	* LaserDisc:
+		- Introduction: Introduced in 1972.
+		
+	* CDs and DVDs:
+		- Adoption: Became popular in the 1990s.
+		
+		- Principle: Store data as microscopic pits and lands on the disc's surface, read with a laser.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	SOLID-STATE STORAGE
+	* Semiconductor Memory:
+		- Release: Became available in 1972 at around 1 cent per bit, quickly making magnetic core memory obsolete.
+		
+	* Solid-State Drivers (SSDs):
+		- Principle: Use flash memory (similar to USB driver) with no moving parts.
+		
+		- Advantages: Much faster access times (under 1ms) compared to HDDs.
+		
+		- Trend: Increasingly replacing HDDs.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	MEMORY HIERARCHY
+	* Concept: Modern computers use a memory hierarchy system to balance cost and performance.
+	
+	* Levels:
+		- Fast, expensive, small-capacity memory: (e.g., CPU cache, RAM).
+		
+		- Mid-speed, less costly, larger memory: (e.g., SSDs).
+		
+		- Very large, slower, cheap memory: (e.g., HDDs or cloud storage).

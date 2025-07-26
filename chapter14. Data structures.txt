@@ -1,0 +1,94 @@
+	INTRODUCTION TO DATA STRUCTURES
+	* Definition: A data structure is a way of organizing and storing data in computer memory to enable efficent
+	access and manipulation.
+	
+	* Importance: Choosing the appropriate data structure can greatly simplify programming tasks and improve 
+	program performance.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BASIC DATA STRUCTURES
+	* Arrays:
+		- Features: A basic data structure where values are stored sequentially in memory.
+		
+		- Access: Elements are accessed using an "index", usually starting from 0 in most programming languages.
+		
+	* Strings:
+		- Features: Similar to arrays, strings are essentially arrays of characters.
+		
+		- Null-termination: When stored in memory, strings are typically terminated with a null character 
+		(binary value 0) to signal the end of the string.
+		
+		- Operations: Most programming languages provide built-in functions to manipulate strings, such as
+		concatenation.
+		
+	* Matrices:
+		- Features: Used to represent two-dimensional data, similar to a spreadsheet.
+		
+		- Structure: Can be thought of as an "array of arrays".
+		
+		- Access: Accessing a value requires specifying two indices: one for the row and one for the column.
+		
+		- Multidimensional: Matrices can be multi-dimensional as needed.
+		
+	* Structures:
+		- Features: Allowing grouping related variables into a logical unit.
+		
+		- Example: Grouping a bank account number and its balance.
+		
+		- Application: Arrays of structures can also be created.
+		
+	* Linked Lists:
+		- Features: A flexible data structure made up of "nodes", each storing a value and a pointer to the
+		next node.
+		
+		- Non-contiguous: Nodes don't need to be stored contiguously in memory.
+		
+		- Types: Can be circular (last node points back to the first) or end with a null pointer.
+		
+		- Dynamic: Very flexible - nodes can be easily added or removed by adjusting pointers.
+		
+	* Queues:
+		- Principle: Follows the "First-In, First-Out" (FIFO) principle - like a line of people at a store.
+		
+		- Operations: New item are added at the end, and items are removed from the front.
+		
+		- Implementation: Can be implemented using linked lists.
+		
+	* Stacks:
+		- Principle: Follows the "Last-In, First-Out" (LIFO) principle - like a stack of plates.
+		
+		- Operations: New item are pushed oto the top and popped off the top.
+		
+	* Trees:
+		- Features: A hierarchical data structure where nodes can have multiple child nodes.
+		
+		- Components:
+			+ Root: The top node.
+			
+			+ Parent: A node with children.
+			
+			+ Leaf: A node with no children.
+			
+		- Binary Tree: A common tree type where each node has at most two children.
+		
+		- Unique Path: There is only one path from the root to any leaf node.
+		
+	* Graphs:
+		- Features: Used for data where connections are more complex and not necessarily hierarchical - like a
+		network of cities and roads.
+		
+		- Differences from Trees: Nodes can have multiple connections, and there are no clear root or leaf nodes.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	IMPORTANCE AND APPLICATION
+	* Simplifying Programming: Choosing the right data structure can greatly simplify coding tasks and make code
+	more efficent.
+	
+	* Data Structure Libraries: Most programming languages often built-int libraries with standard data structures,
+	allowing developers to focus on high-level problem-solving.
+	
+	* Real-World Applications: These data structures are widely used in all areas of computer science - from operating
+	systems and databases, to web development, artificial intelligence, and computer graphics.
+	

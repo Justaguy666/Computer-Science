@@ -1,0 +1,65 @@
+	INTRODUCTION TO GUI
+	* The Macintosh Turning Point: The Apple Macintosh 1984 was the commercially successful personal computer
+	with a GUI and mouse - marking a major shift from command-line interfaces.
+	
+	* Early Influences: Earlier interactive graphical applications like Sketchpad (1962) had a great influence, but Doughlas
+	Engelbart is a key figure in developing the modern GUI.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE VISION OF DOUGHLAS ENGELBART
+	* Augmenting Human Intellect: Engelbart believed computers could enhance human intellect to solve computer problems.
+	
+	* The oN-Line System (NLS) and the Mouse: He and his team developed the oN-Line System (NLS), and in 1964, created the
+	first mouse along with Bill English.
+	
+	* "The Mother of All Demos": In 1968, Engelbart demonstrated NLS, showcasing features like bitmap graphics, video conferencing,
+	word processing, real-time collaborative editing, the mouse, and multiple non-overlapping windows.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	XEROX PARC AND THE DESKTOP METAPHOR
+	* Xerox PARC and Alto: Many from Engelbart's team moved to Xerox PARC, where the first true GUI-based computer, the Xerox Alto,
+	was developed and completed in 1973.
+	
+	* The "Desktop Metaphor": Alto introduced the concept of the "desktop metaphor", making the screen resemble a physical
+	desktop with overlapping windows, icons, menus, and a pointer (WIMP interface).
+	
+	* Widgets: It also included basic reusable graphical building blocks called widgets (buttons, checkboxes, sliders).
+	
+	* Event-Driven Programming: GUIs use event-driven programming, where code is executed in response to user actions (events)
+	like clicks or keystrokes, rather than sequentially.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	XEROX STAR AND THE WYSIWYG Principle
+	* Xerox Star (1981): Building on Alto, Xerox released the Star system in 1981, futher refining the desktop metaphor with
+	file and folder icons and the concepts of "cut, copy, and paste", inspired by physical document editing.
+	
+	* WYSIWYG: It also introduced the principle of "What You See Is What You Get" (WYSIWYG).
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	STEVE JOBS, APPLE, AND MICROSOFT WINDOWS
+	* Steve Jobs' Visit to Xerox PARC: In 1979, Steve Jobs visited Xerox PARC and was deeply inspired by their GUI technology.
+	
+	* Apple Lisa and Macintosh:
+		- Apple incorporated these ideas into the Apple Lisa (1983), which was expensive and commercially unsuccessful, and
+		later the more affordable Macintosh (1984).
+		
+		- Initial Challenges: The early Macintosh struggled due to a lack of software.
+		
+	* Microsoft Windows:
+		- Windows entered the GUI space with Windows 1.0. Although initially less polished than Mac OS, Windows - Especially version
+		3.1 and the redesigned Windows 95 - gains significant market share.
+		
+		- Windows 95: Introduced features like preemtive multitasking and protected memory, along with enduring UI elements like 
+		the Start menu and Windows Explorer.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	EVOLUTION AND FUTURE OUTLOOK
+	* WIMP Model: Modern desktop GUIs largely evolved from the WIMP model pioneered by Xerox.
+	
+	* Engelbart's Vision: It emphasizes the ongoing effort to create more intuitive and powerful computing experiences, aligning
+	with Engelbart's vision of augmenting human intellect.

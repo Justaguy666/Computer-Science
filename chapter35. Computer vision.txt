@@ -1,0 +1,123 @@
+	INTRODUCTION TO COMPUTER VISION AND HOW IMAGES ARE STORED
+	* The Importance of Vision:
+		- Vision is the most important human sense, providing a vast amount of information about the surrounding 
+		world and enabling us to perform countless complex tasks.
+		
+		- In AI, the goal is to equip computers with similar capabilities.
+		
+	* What's Computer Vision?
+		- A subfield of computer science (and a part of AI).
+		
+		- Its goal is to enable computers to extract high-level information from digital images and videos.
+		
+		- This allows computers to "understand" and "interept" visual content, similarly to humans see and comprehend.
+		
+	* How Digital Images are Stored?
+		- Digital images are usually stored as a large grid of pixels.
+		
+		- Each pixel is small image unit defined by a combination of three primary colors: Red, Green, and Blue - RGB
+		values.
+		
+		- The intensity of each color (typically from 0 to 255) determines the final color of the pixel.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	BASIC TECHNIQUES IN COMPUTER VISION
+	* Object Tracking:
+		- One of the simplest applications of computer vision is tracking a specific-colored object in an image sequence
+		or video.
+		
+		- Example: Tracking a bright pink ball by searching pixels with matching color values.
+		
+		- Limitation: This method can be affected by lighting changes, shadows, and similarly colored objects in the 
+		environment.
+		
+	* Edge Detection:
+		- To detect features larger than a single pixel (like object outlines), computer vision algorithms must analyze
+		small group of pixels.
+		
+		- Edge detection involves identifying boundaries where there is a shape change in pixel intensity.
+		
+		- Example: An algorithm can detect vertical edges by calculating the color or intensity differences between pixels
+		to the left and right of a point.
+		
+	* Kernels and Convolution:
+		- Kernel (or filter): A small matrix containing numerical values.
+		
+		- Convolution: A mathematical operation where the kernel is "slid" across small sections of the image (typically 
+		3x3 or 5x5 pixels).
+		
+		- At each position, the pixel values in that region are multiplied by the corresponding values in the kernel,
+		then summed to produce a new pixel in an output image (feature map).
+		
+		- Different kernels can be used to highlight different types of features in the image:
+			+ Kernels for detecting horizontal and vertical edges.
+			
+			+ Kernels for sharpening.
+			
+			+ Kernels for blurring.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	IMAGE RECOGNITION AND CONVOLUTIONAL NEURAL NETWORKS
+	* Face Recognition:
+		- A more complex application where computers learn to recognize specific facial features (nose, eyes, eyebrows, 
+		mouth).
+		
+		- Viola-Jones Algorithm: Pioneering and influential method using "Haar-like features" for fast face detection in
+		images.
+		
+	* Convolutional Neural Networks (CNNs):
+		- A type of artificial neural network especialy powerful and efficient for computer vision tasks.
+		
+		- Unlike predefined kernels, CNNs can automatically learn useful kernels to recognize complex and interesting 
+		features in images through training.
+		
+		- CNN Architecture: Consists of multiple layers, each with a specific role:
+			+ Convolutional Layer: Applies learned kernels to extract local features (edges, corners, textures).
+			
+			+ Pooling Layer: Reduces the size of the feature map, minimizing parameters and increasing robustness to small
+			shifts in object location.
+			
+			+ Fully Connected Layer: Use the extracted features to perform classification or other tasks.
+			
+		- Hierarchical Feature Learning: Different layers in a CNN can recognize increasingly complex features
+			+ Early layers detect basic features (edges, corners).
+			
+			+ Middle layers learn more complex features (shapes, object parts).
+			
+			+ Final layers learn to recognize entire objects (e.g., faces, cars, cats).
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	APPLICATIONS AND FUTURE OF COMPUTER VISION
+	* Diverse Applications:
+		- Optical Character Recognition (OCR): Converts images of text into editable text.
+		
+		- Healthcare: Detecting tumors and diagnosing diseases from medical images (X-rays, MRIs).
+		
+		- Traffic: Monitoring traffic flow, license plate recognition, autonomous driving systems.
+		
+		- Security: CCTV surveillance, criminal identification.
+		
+		- Human-Computer Interaction: Tracking key points on the hand or entire body to interept gestures and body 
+		language.
+		
+		- Augmented Reality (AR): Overlaying digital information onto the real world.
+		
+	* Smart Interaction:
+		- A computer's ability to recognize context - including physical and social environments - enables it to adjust 
+		its behavior intelligently.
+		
+		- Example: Offering help when the user seems confused or avoiding updates when the user is feeling upset.
+		
+	* Biometrics:
+		- Facial structure data (like the distance between the eyes or forehead height) is a form of biometric data.
+
+		- Enables computers to recognize users for unlocking smartphones, verifying identity, or surveillance.
+		
+	* The Future of Computer Vision:
+		- Rapidly advancing due to progress in hardware (powerful GPUs) and algorithms (CNNs, Deep Learning).
+		
+		- Computers' ability to "see" and "understand" the visual world like humans will fundamentally change how we 
+		interact with technology, opening up new possibilities across all fields.

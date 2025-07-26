@@ -1,0 +1,116 @@
+	DEFINITION AND HISTORY OF ROBOTS
+	* What is a Robot?
+		- Robots are machines capable of performing a series of automated actions, controlled by computers.
+		
+		- They come in various shapes and sizes:
+			+ Industrial arms: Widely used in manufacturing plants.
+			
+			+ Self-driving cars: Autonomous vehicles.
+			
+			+ Drones: Remotely or autonomously operated flying devices.
+			
+			+ Humanoid robots: Robots designed to resemble humans.
+			
+	* Origin of the term "Robot":
+		- The word "robot" was first used in a play by Czech writer Karel Capek in 1920, titled "R.U.R (Rossum's 
+		Universal Robots)".
+		
+		- It derives from Czech word "robota", meaning "forced labor" or "drudgery".
+		
+	* Early History of Automatons:
+		- Before computer-controlled robots existed, many ancient and medieval inventors created mechanical devices that
+		performed tasks automatically. These were known as automatons.
+		
+		- Example:
+			+ A mechanical duck that ate grain, created by Jacques de Vaucanson (1739).
+			
+			+ The "Turk", a chess-playing machine by Wolfgang von Kempelen (1770).
+			
+	* Emergence of Computer-controlled Robots:
+		- The first computer-controlled machines appeared in the late 1940s and were known as CNC (Computer Numerical
+		Control) machines.
+		
+		- These could execute programmed instructions to perform precise tasks in manufacturing.
+		
+	* First Commercial Deployment:
+		- The first programmable industrial robot, named Unimate, was sold to General Motors in 1960.
+		
+		- Unimate was used to lift hot metal parts from die casting machines, replacing dangerous human labor.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	HOW ROBOTS ARE CONTROLLED
+	* Feedback Control Loop:
+		- This is the basic principle that allows a robot to move to a specific position or perform an accurate action.
+		
+		- It involves four main components:
+			+ Sensors: Measure the current state of the robot or environment (e.g., position, speed, temperature).
+			
+			+ Error Calculation: Compares the sensor-measured value to the desired value (target) to compute the "error".
+			
+			+ Controller: Uses the error to compute the necessary action to reduce it.
+			
+			+ Actuators: Carry out the physical action in the real world (e.g., motors that move the robot arm).
+			
+		- This process repeats continuously until the robot reaches the target.
+		
+	* PID Controller (Proportional-Integral-Derivative Controller):
+		- One of the most common and effective feedback controllers, widely used to smoothly and precisely control robots 
+		while handling external forces and disturbances.
+		
+		- A PID controller computes three values to determine control actions:
+			+ Proportional (P): Based on the current error. The larger the error, the stronger the response.
+			
+			+ Integral (I): Accumulates past errors over time. Helps eliminate steady-state errors and stablizes the 
+			system over longer-term changes.
+			
+			+ Derivate (D): Based on the rate of change of the error. Helps predict future error and prevent overshooting,
+			resulting in smoother motion.
+			
+	* High-level Software:
+		- In addition to low-level control loops, robots also use high-level software responsible for planning and 
+		executing complex tasks.
+		
+		- Examples: Drawing optimal paths, breaking down larger tasks into simpler movements, making decisions based on
+		complex sensor input (e.g., computer vision).
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	ACHIEVEMENTS, CHALLENGES, AND APPLICATIONS OF ROBOTS
+	* Achievements:
+		- Robots have achieved remarkable feats in environments that are harsh or dangerous for humans.
+		
+		- Examples: Deep ocean exploration, Mars exploration (e.g., Curiosity, Perseverance rovers).
+		
+	* Challenges:
+		- Many tasks that seem simple for humans are extremely difficult for robots.
+		
+		- Examples:
+			+ Bipedal locomotion: Requires complex balance and control.
+			
+			+ Grasping objects without damaging them: Requires fine force sensing and dexterity.
+			
+			+ Operating in unknown, dynamic environments: Difficult to make flexible decisions like humans.
+			
+	* Applications of Robots:
+		- Self-driving cars:
+			+ One of the largest and fastest-growing applications of robotics.
+			
+			+ Rely on a combination of sensors (radar, lidar, cameras) and computer vision algorithms to navigate 
+			traffic and avoid obstacles.
+			
+		- Military robots:
+			+ The military is interested in robots because they can surpass human in strength, endurance, attention, and
+			accuracy in danerous missions.
+			
+			+ Examples: Bomb disposal robots, reconnaissance and combat drones.
+			
+	* The Dual Nature of Robotic Technology:
+		- Like many powerful technologies, robotics has a dual nature.
+		
+		- It can be used for good (rescue, healthcare, efficient manufacturing) or for harm (autonomous weapons, surveillance
+		that violates privacy).
+		
+		- The use of lethal autonomous weapons raises complex ethical and legal issues.
+		
+		- It's crucial to carefully consider their potential and dangers to ensure responsible development and deployment.

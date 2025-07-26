@@ -1,0 +1,69 @@
+	GROWING NEED FOR COMPUTATION IN THE EARLY 20TH CENTURY
+	* Societal Developments:
+		- Rapid growth in global population.
+		
+		- Expansion of global trade networks.
+		
+		- Governments and businesses needed to process larger amount of data than ever before.
+		
+	* Early Computing Devices:
+		- Mechanical devices like time-recording machines were used.
+		
+		- However, these had many limitations in terms of speed and accuracy.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	ELECTROMECHANICAL COMPUTERS
+	* Havard Mark I:
+		- One of the first electromachanical computers.
+		
+		- Very large, expensive, and prone to errors.
+		
+	* Relays:
+		- Electrically controlled mechanical switches.
+		
+		- Used in electromachanical computers.
+		
+		- Limitation: Slow and unreliable.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	VACUUM TUBES
+	* Invented by John Ambrose Fleming (1903):
+		- The thermionic valve, or vacuum tube.
+		
+		- Enabled the control of electric current.
+		
+		- More reliable than relays.
+		
+	* Lee De Forest (1906):
+		- Added a control grid to the vacuum tube.
+		
+		- Allowed navigation and amplification of electric signals.
+		
+	* Applications:
+		- Become the foundation for radios, long-distance telephony, and other electronics.
+		
+		- Limitations: Fragile and expensive.
+		
+	* Colossus Mark 1:
+		- First large-scale use of vacuum tubes in computing.
+		
+		- Used to decrypt German communications during WWII.
+		
+	* ENIAC - Electronic Numerical Integrator And Computer (1946):
+		- The first general-purpose programmable electronic computer.
+		
+		- Completed at the University of Pennsylvania.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	TRANSISTOR (1947)
+	* Invented at Bell Labs: Smaller, faster, and more reliable than vacuum tubes.
+	
+	* Impact: Led to the development of smaller, cheaper, and more powerful computers.
+	
+	* Modern appication: Widely used in many types of electronic devices.
+	
+	
+	

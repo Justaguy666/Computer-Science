@@ -1,0 +1,90 @@
+	EARLY COMPUTERS AND THE NEED FOR OPERATING SYSTEMS
+	* Early Computers (1940s - 1950s):
+		- Limitation: Could only run one program at a time.
+		
+		- Process: Programmers wrote code on punch cards and manually loaded them into mainframes.
+		
+		- Problem: This process became inefficient as computers became faster.
+		
+	* The Birth of Operating Systems (OS):
+		- Purpose: To automate the program execution process.
+		
+		- Definition: An OS is a privileged program that manages other programs and hardware.
+		
+		- Startup: It is the first program to run when the computer is powered on.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	CORE FUNCTIONS AND THE DEVELOPMENT OF OPERATING SYSTEMS
+	* Batch Processing:
+		- Principle: Early OS introduced batch processing, allowing computers to queue u[ and run multiple jobs
+		without manual intervention.
+		
+		- Bebefit: Saved time and increased system efficiency.
+		
+	* Hardware Abstraction and Device Drivers:
+		- Challenge: With increasing hardware variety (e.g., different printers), writing specific code for each
+		device became complex.
+		
+		- OS Role: The OS introduced device drivers to provide a software abstraction layer.
+		
+		- Bebefit: Programmers could use standardized commands (APIs) to interact with hardware without needing
+		to understand each device's specifics.
+		
+	* Multitasking:
+		- Background: Faster CPUs often waited for slowrt mechanical components (e.g., printers).
+		
+		- Atlas Supervisor OS (1962): Introduced smart scheduling that allowed the CPU to switch to another ready
+		program during I/O waits.
+		
+		- Definition: The alibity to run multiple programs seemingly simultaneously on one CPU is known as multitasking.
+		
+	* Memory Management and Virtual Memory:
+		- Memory Allocation: As multiple programs ran concurrently, each required its own memory space. The OS 
+		assigned seperate memory blocks to each.
+		
+		- Fragmentation Issue: This could cause memory fragmentation.
+		
+		- Virtual Memory: Introduced to simplify development - programs assume their memory starts at address 0, 
+		and the OS (along with CPU) handles mapping these virtual addresses to physical locations. Also enabled 
+		dynamic memory allocation, where programs request memory as needed.
+		
+	* Memory Protection:
+		- Benefit: By assigning isolated memory, a buggy program only affects its own space, not others or the OS.
+		
+		- Importance: Crucial for system stability and defense against malware.
+		
+	* Time-Sharing Systems:
+		- Context: By the 1970s, powerful computers supported multiple users simultaneously via terminals.
+		
+		- Development: OS evolved to manage time-sharing, where each user got a small time slice of system resources,
+		creating the illusion of dedicated access.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	KEY OPERATING SYSTEMS IN HISTORY
+	* Multics (1969): One of the earliest influential time-sharing OSes, designed with strong security in mind,
+	but was overly complex.
+	
+	* Unix:
+		- Creation: Researchers Ken Thompson and Dennis Ritchie found Multics too complex and built Unix.
+		
+		- Design: They seperated core OS functions (memory management, multitasking, I/O) into a kernel and 
+		delivered other tools as seperate utilities.
+		
+		- Success: Unix's simplicity allowed it to run on cheaper hardware and made it highly popular.
+		
+	* Personal Computers and Simpler OSes:
+		- Context: In the 1980s, personal computers emerged.
+		
+		- MS-DOS (1981) by Microsoft: Early OSes were much simpler and lacked features like multitasking or 
+		memory protection, to fit on small disks.
+		
+		- Limitation: Crashes were frequently but tolerated, as users could simply reboot.
+	
+	* Modern Operating Systems:
+		- Even early versions of Windows lacked strong memory protection, leading to the infamous "blue screen
+		of death".
+		
+		- Today's OSes (Mac OS, Windows, Linux, Android, iOS) feature multitasking, virtual memory, and memory
+		protection - allowing smooth, concurrent running of multiple apps.

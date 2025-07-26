@@ -1,0 +1,94 @@
+	EARLY PROGRAMMING: MACHINE CODE
+	* Definition: The only language that a CPU can understand directly, consisting of binary strings.
+		
+	* Early Programming Method: Programmers had to write programs directly in binary.
+		
+	* Challenges:
+		- Tedious and error-prone: Long binary strings are difficult to write and read.
+			
+		- Hardware-dependent: Each CPU has its own instruction set, so machine code is not portable between
+		CPUs.
+		
+	* Process: Programmers often wrote a high-level draft on paper (pseudo-code), then manually translated it
+	into binary.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE FIRST LEAP FORWARD: ASSEMBLY LANGUAGE
+	* Emergence: Developed in the 1940s and 1950s to make programming easier.
+	
+	* Characteristics:
+		- Uses simple, memorable mnemonics for machine instructions.
+		
+		- Each assembly instruction usually corresponds directly to a machine code instruction.
+		
+	* Assembler:
+		- Definition: A special program used to translate assembly code into machine code.
+		
+		- Benefit: Frees programmers from having to remember complex binary strings.
+		
+	* Assembler Improvements:
+		- More advanced assemblers could calculate jump addresses automatically, allowing programmers to use
+		labels instead of fixed memory addresses.
+		
+		- This abstracted away some of the low-level hardware details.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE REVOLUTION: HIGH-LEVEL PROGRAMMING LANGUAGES
+	* Limitations of Assembly:
+		- Through better than machine code, assembly was still tightly tied to undelying hardware.
+		
+		- One assembly command typically mapped into one machine instruction.
+		
+	* First High-Level Language:
+		- Arithmetic Language Version 0 (A-0): Designed by Dr. Grace Hopper, a pioneer in computing.
+		
+		- Feature: A single high-level line of code could be translated into many machine instructions.
+		
+	* Compiler:
+		- Definition: A program developed to translate the entire source code written in a high-level language
+		into machine or object code.
+		
+		- First Compiler Creator: Grace Hopper in 1952.
+		
+	* FORTRAN (Formula Translation):
+		- Released: 1957 by IBM.
+		
+		- Significance: Became one of the first widely used high-level programming languages, especially for
+		scientific and engineering applications.
+		
+		- Benefit: Programs written in FORTRAN were significantly shorter than equivelant assembly code.
+		
+	* COBOL and Portability:
+		- Challenge: Initially, high-level languages were often tied to specific computer hardware.
+		
+		- COBOL's Goal: Developed in 1959 to become a common language usable across various machines.
+		
+		- "Write Once, Run Anywhere" Concept: The same source code could be compiled and run on different machine 
+		architectures. This was a major achievement.
+		
+	---------------------------------------------------------------------------------------------------------------
+
+	THE IMPACT AND BOOM OF HIGH-LEVEL LANGUAGES
+	* Lowering the Barrier to Entry:
+		- The development of high-level languages made programming much more accessible.
+		
+		- Experts from many different fields (not just electrical engineers) could start using computers to 
+		solve problems.
+		
+	* Development of More Complex Software: High-level languages allowed the creation of much larger and more
+	complex software systems.
+	
+	* The "Golden Age" of Language Design:
+		- The following decades saw the birth of many new programming languages, each aiming to improve upon
+		previous limitations or serve emerging technologies.
+		
+		- Notable Examples:
+			+ Algol, Lisp (1950s).
+			
+			+ BASIC, Pascal (1960s-1970s).
+			
+			+ C, Smalltalk, C++ (1970s - 1980s).
+			
+			+ Objective-C, Perl, Python, Java, Ruby, C#, Swift, Go (1990s - present).

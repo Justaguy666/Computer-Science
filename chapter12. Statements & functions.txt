@@ -1,0 +1,89 @@
+	PROGRAMMING LANGUAGES AND ABSTRACTION
+	* Purpose: Programming languages were developed to simplify the writing of complex programs by abstracting
+	away low-level hardware details.
+	
+	* Benefits: Allow programmers to focus on problem solving rather than on how the CPU processes each bit.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	STATEMENTS
+	* Definition:
+		- Like in spoken languages, programming languages have "statements" - complete, discrete instructions
+		or ideas.
+		
+		- Each statement is a specific step that the computer should perform.
+		
+	* Syntax:
+		- Definition: A set of rules governing the structure and formatting of statements in programming language.
+		
+		- Importance: Helps the compiler/interpreter understand the meaning of the code.
+		
+	* Assignment Statements: A common type of statement used to assign a value to a variable
+		
+	* Variables:
+		- Definition: A named location in computer memory used to store a value.
+		
+		- Naming: Variables can be named arbitarily, but meaningful names improve readability and understanding.
+		
+		- Initialization: Variables need to be given an initial value before use.
+		
+	* A Program is a Sequence of Statements: A basic prgram is a list of statements executed in order, top to bottom,
+	like a recipe.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	CONTROL FLOW STATEMENTS
+	* These statements allow programs to execute in a more complex manner - not just top-down.
+	
+	* if Statement (Conditional):
+		- Function: Executes a block of code based on whether a condition is true or false. Similar to a fork
+		in the road.
+		
+		- if-else: Can be combined with else to specify what to do when the condition is false.
+		
+	* while Loop (Conditional Loop):
+		- Function: Repeats a block of code as long as a condition remains true.
+		
+		- Example: Keep moving a game character until it hits an obstacle.
+		
+	* for Loop (Counted Loop):
+		- Function: Repeats a block of code a specific number of times.
+		
+		- Example: Repeat 10 times to create 10 bugs in a game.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	FUNCTIONS / METHODS / SUBROUTINES
+	* Definition:
+		- A way to package a block of code (a group of statements) into a reusable unit.
+		
+		- A powerful form of abstraction that hides internal complexity.
+		
+	* Inputs and Outputs:
+		- Functions can accept input values (called parameters or arguments).
+		
+		- Function can return a value as output (a result).
+		
+	* Benefits of Functions:
+		- Reusability: Avoid rewriting the same code repeatedly.
+		
+		- Modularity: Break large programs into smaller, manageable parts.
+		
+		- Collaboration: Allow multiple developers to work on different parts of the program.
+		
+		- Abstraction: Hide the complex details of how a function works - just know what it does.
+		
+		- Easier Debugging: Errors are easier to isolate and fix within specific functions.
+		
+	* Modern Program Design: Breaking complex problems into smaller functions is key to modern programming.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LIBRARIES
+	* Definition: Modern programming languages often come with collections of pre-written functions and code, 
+	called libraries.
+	
+	* Purpose: Provide common functionality for tasks like graphic, sound, networking, data processing, etc.
+	
+	* Benefits: Libraries are typically professionally written, optimized, and well-tested, saving developers 
+	time and effort.

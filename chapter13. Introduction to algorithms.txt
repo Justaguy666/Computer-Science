@@ -1,0 +1,76 @@
+	INTRODUCTION TO ALGORITHMS
+	* Definition:
+		- An algorithm is a specific, clearly defined set of steps or rules for completing a computational
+		task or solving a problem.
+		
+		- They are the backbone of all software and computer systems.
+		
+	* Algorithm Efficiency:
+		- Importance: The effiecency of an algorithm (number of steps needed, amount of resources used) is crucial.
+		Fewer steps usually mean faster and better performance.
+		
+		- Time Complexity: A way to measure performance, usually expressed using Big O notation (e.g., O(n^2), O(logn)).
+		
+	* Origin of the Term: The term "algorithm" originates from the name of the Persian mathematician Muhammad ibn Musa al-Khwarizmi,
+	who contributed greatly to algebra and the decimal number system.
+	
+
+	---------------------------------------------------------------------------------------------------------------
+		
+	SORTING ALGORITHMS
+	* The Sorting Problem: Sorting data (e.g, arranging a list of numbers from smallest to largest) is one of 
+	the most common and heavily studied problems in computer science.
+	
+	* Selection Sort Algorithm:
+		- Principle:
+			+ Scan the entire array to find the smallest number.
+			
+			+ Swap the smallest number with the number at the current index (beginning of the unsorted section).
+			
+			+ Repeat this process for the remaining unsorted part of the array.
+			
+		- Time Complexity: O(n^2)
+			+ This means the execution time increases with the square of the number of elements (n).
+			
+			+ Not very effiecent for large data sets.
+			
+	* Merge Sort Algorithm:
+		- Principle (Divide and Conquer):
+			+ Divide: Split the array into smaller subarrays untis each one contains only one element (a single
+			element is always sorted).
+			
+			+ Conquer: Merge these subarrays back together in sorted order.
+			
+		- Time Complexity: O(nlogn)
+			+ Much more efficient than Selection Sort for large data sets.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	GRAPH TRAVERSAL ALGORITHMS
+	* Graphs:
+		- Definition: A graph is a network of nodes (vertices) connected by edges.
+		
+		- Example: A map where cities are nodes and roads are edges.
+		
+	* Djikstra's Algorithm:
+		- Function: Used to find the shortest path between two nodes in a weighted graph (edges have "cost" or 
+		"distance").
+		
+		- Principle:
+			+ Start from a source node.
+			
+			+ Repeatedly explore adjacent nodes, updating the shortest known path to each node.
+			
+			+ Builds a shortest-path tree from the source to all other nodes.
+			
+		- Time Complexity: O(n^2)
+			+ The original version is O(n^2), through optimazations have improved its performance.
+			
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE IMPORTANCE OF ALGORITHMS
+	* Foundation of Modern Technology: Algorithms are the foundation of most technologies we use daily - from 
+	search engines (Google Search) to GPS, social networks, and artificial intelligence.
+	
+	* Ongoing Development: Computer scientists continously research and develop new algorithms or improve existing
+	ones to solve increasingly complex problems and optimize performance.

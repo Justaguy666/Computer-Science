@@ -1,0 +1,120 @@
+	INTRODUCTION TO NATURAL LANGUAGE PROCESSING (NLP)
+	* Computer Language vs. Natural Language:
+		- Computer Language: Has a small vocabulary, follows very strict syntax and grammar rules, and requires high
+		precision (e.g., programming languages).
+		
+		- Natural Language (Human Language): Has a large and diverse vocabulary, is often ambiguous, and vary by context
+		and region.
+		
+	* Natural Language Processing (NLP):
+		- An interdisciplinary field combining computer science and linguistics.
+		
+		- The goal is to equip computers with the alibity to understand, interept, and generate human language meaningfully.
+		
+		- NLP serves as a bridge between the complex world of human language and the logical world of computers.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	BASIC TECHNIQUES IN NLP
+	* Syntax Parsing:
+		- A process where NLP breaks down a sentence into smaller components so computers can process and understand the
+		meaning.
+		
+		- Part-of-Speech Tagging: Identifies the grammatical category of each word (e.g., noun, verb, adjective, adverb, 
+		preposition).
+		
+		- Word Sense Disambiguous: The computer uses grammar and phrase structure rules to determine the correct meaning 
+		of a word that has multiple senses.
+		
+		- Parse Tree: A tree structure representation that helps computers understand the grammatical structure of a
+		sentence and the relationship between words/phrases.
+		
+	* Other Techniques:
+		- Named Entity Recognition (NER): Identifies and classifies named entities in text (e.g., names of people, places,
+		organizations, dates).
+		
+		- Sentiment Analysis: Determines the attitude or emotion (positive, negative, neutral) expressed by the writer on 
+		a given topic.
+		
+		- Text Summarization: Generates a concise and coherent summary from a long text.
+		
+		- Machine Translation: Translates text from one language to another.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	APPLICATIONS OF NLP IN DAILY LIFE
+	* Voice Search:
+		- Computers recognize users' questions and interactions via voice input.
+		
+		- Examples: "What's the weather today?", "Find nearby restaurants."
+		
+	* Voice Command Processing:
+		- Allows users to control devices and perform tasks using voice.
+		
+		- Examples: "Set alarm for 7 AM", "Call Mom."
+		
+	* Natural Language Generation (NLG):
+		- Computers automatically generate meaningful and coherent text from structured data.
+		
+		- Especially useful when data is stored in databases or on informational websites.
+		
+		- Examples: Generating financial reports, product descriptions, automated sports news.
+		
+		- Google's Knowledge Graph: Contains billions of facts and relationships between entities, helping Google understand
+		the world more deeply and provide direct answer instead of just links.
+		
+	* Chatbots and Virtual Assistants:
+		- Rule-based Chatbots: Early systems like ELIZA (from the 1960s) operated using hundreds of pre-defined rules 
+		created by experts (e.g., ELIZA played the role of a therapist by reflecting keywords).
+		
+		- Modern Chatbots: Powered by machine learning, trained on large datasets of human conversations.
+		
+		- Applications: Customer service, user support, appointment booking.
+		
+		- Interesting experiment: Some chatbots even developed their own language in a Facebook experiment.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	SPEECH RECOGNITION AND SYNTHESIS
+	* Speech Recognition:
+		- The process of converting spoken language into text.
+		
+		- The field dates back decades, with the first speech recognition system developed in 1952.
+		
+		- Advancements: Thanks to breakthroughs in computing power and machine learning algorithms (especially deep 
+		neural networks) real-time speech recognition has become far more feasible and accurate.
+		
+		- How it Works:
+			+ Analyze audio signals using spectrograms to determine frequencies and phonemes (basic sound unit of a 
+			language).
+			
+			+ Combines with language models containing statistical data about word sequences (e.g., which words commonly
+			appear together) to improve accuracy and resolve ambiguity.
+			
+	* Speech Synthesis (Text-to-Speech TTS):
+		- The process of converting written text into spoken voice.
+		
+		- How it Works: Breaks sentences into phonetic components and plays corresponding sounds.
+		
+		- Advancements: Older TTS systems had robotic and unnatural voices. Modern synthesized voices (e.g., Siri, Cortana, 
+		Alexa) have greatly improved in terms of naturalness and expression, through the are still not fully human-like.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	FUTURE OF LANGUAGE TECHNOLOGY AND CONCLUSION
+	* Future of Voice Technology:
+		- Rapid growth of voice user interfaces (VUI) on smartphones, cars, smart speakers, and other IoT devices.
+		
+		- Positive Feedback Loop: More usage generates more data for training systems, leading to better accuracy and 
+		naturalness, which encourages even more use.
+		
+		- Many experts predict that voice technology will become as natural and common as screens and keyboards.
+		
+	* Conclusion:
+		- NLP is a key field in AI that enables computers to overcome the barrier of complex human languages.
+		
+		- From sentence structure understanding to speech recognition and synthesis, NLP is transforming how we interact 
+		with technology and access information.
+		
+		- With continuous advances in ML and Large Language Models (LLMs), NLP is expected to deliver even more
+		groundbreaking innovations in the future.

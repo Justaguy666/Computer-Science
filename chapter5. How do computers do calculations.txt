@@ -1,0 +1,119 @@
+	INTRODUCTION TO THE ALU
+	* Definition: The ALU (Arithmetic Logic Unit) is a core component of the Central Processing Unit (CPU),
+	responsible for performing all arithmetic operations (addition, subtraction, multiplication, division)
+	and logic operations (NOT, AND, OR).
+	
+	* "The computer's mathematical brain": This is where all calculations and data comparisions actually
+	take place.
+	
+	* History and Significance:
+		- The ALU is a fundamental and indispensable component in modern computing.
+		
+		- Intel 74181: A historically significant ALU, the first complete ALU integrated on a single chip,
+		introduced in the early 1970s, marking a major step in computer miniaturization and performance
+		improvement.
+		
+	* Basic Structure: The ALU is built from logic gates (AND, OR, NOT, XOR).
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	ARITHMETIC UNIT
+	* This unit is responsible for performing mathematical calculations.
+	
+	* Binary Addition:
+		- The most basic operation the ALU performs. More complex operations (subtraction, multiplication,
+		division) can be built upon addition.
+		
+		- Half Adder:
+			+ Function: Adds two single binary digits (bits).
+			
+			+ Inputs: A and B (two bits to be added).
+			
+			+ Outputs:
+				# Sum: The result of the addition.
+				
+				# Carry: The carry-over to the next bit.
+				
+			+ Structure: Uses an XOR gate for the sum and AND gate for the carry.
+			
+		- Full Adder:
+			+ Function: Adds three binary digits (A, B, and a carry-in).
+			
+			+ Inputs: A, B, and Carry-in (Cin).
+			
+			+ Outputs: Sum and Carry-out (Cout).
+			
+			+ Structure: Built from two half adders and an OR gate.
+			
+		- Ripple Carry Adder:
+			+ Function: Adds multi-bit binary numbers.
+			
+			+ How it works: Chains multiple full adders together, with each carry-out feeding the next carry-in.
+			
+			+ Limitation: Slow speed due to carry propagation from least to most significant bit.
+			
+		- Overflow:
+			+ Definition: Occurs when the result of an arithmetic operation is too large to fit in the available 
+			number of bits.
+			
+			+ Impact: Can cause computuational errors or unexpected behavior (e.g., Pac-Man Level 256 bug).
+			
+		- Carry Lookahead Adder: Used in modern CPUs to improve speed by calculating carry bits in parallel instead
+		of sequentially like in ripple carry adders.
+		
+	* Other Arithmetic Operations:
+		- Subtraction: Usually performed by converting into addition with a negative number.
+		
+		- Multiplication: In simpler processors, done by repeated addition.
+		
+		- Division: In simpler processors, done by repeated subtraction.
+		
+		- Modern processors: High-end CPUs often have dedicated circuits for faster multiplication and division.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LOGIC UNIT
+	* This unit performs logic operations and data tests.
+	
+	* Logic operations (AND, OR, XOR, NOT).
+	
+	* Number Checks:
+		- Check if a number is zero (e.g., using OR gates and a NOT gate).
+		
+		- Check if a number is negative (by examing the sign bit).
+		
+		- Check if two numbers are equal (by subtracting and checking if the result is zero).
+		
+		...
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	STRUCTURE AND INTERFACE OF THE ALU
+	* Abstraction Symbol: ALUs are often represented as a "V" symbol in block diagrams to hide inner complexity.
+	
+	* Inputs:
+		- Two data inputs.
+		
+		- Opcode (Operation Code): A set of bits that tells the ALU which operation to perform.
+		
+	- Outputs:
+		- Result: The output of the operation.
+		
+		- Status Flags: Individual bits indicating special states of the result.
+			+ Zero flag: Set if the result is zero.
+			
+			+ Negative flag: Set if the result is negative (useful for comparisions like A < B by checking 
+			A - B).
+			
+			+ Overflow flag: Set if arithmetic overflow occurs.
+			
+			+ Carry flag: Set if there's a final carry-out (in addition) or borrow (in subtraction).
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	ALU IN THE OVERALL COMPUTER ARCHITECTURE
+	* The ALU is a vital part of the CPU.
+	
+	* Relation to Memory: Data that the ALU processes is usually fetched from memory, and the result is stored back
+	into memory.
+			

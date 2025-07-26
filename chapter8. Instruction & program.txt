@@ -1,0 +1,92 @@
+	CPU AND PROGRAMMABILITY
+	* CPU's power lies in its programmability. By supplying different instruction sequences (software), the CPU
+	can perform countless tasks.
+	
+	* A program is a sequence of instructions stored in memory, which the CPU fetches and executes sequentially.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	STRUCTURE OF A MACHINE INSTRUCTION
+	* Each machine instruction typically consists of:
+		- Opcode (Operation Code): Tells the CPU what operation to perform (e.g., LOAD, ADD, STORE, JUMP).
+		
+		- Operand: The data or memory address the instruction acts upon.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BASIC INSTRUCTIONS AND PROGRAM EXECUTION EXAMPLES
+	* Example: Simple Addition Program:
+		- LOAD A, [Address X]: Load data from memory address X into register A.
+		
+		- LOAD B, [Address Y]: Load data from memory address Y into register B.
+		
+		- ADD: Add contents of registers A and B (via ALU), store result in A.
+		
+		- STORE A, [Address Z]: Store the value in A into memory at address Z.
+		
+	* Instruction Set Expansion:
+		- SUBTRACT (SUB): Perform subtraction.
+		
+		- JUMP (JMP):
+			+ Function: Alters execution order by jumping to another memory address.
+			
+			+ How it works: Writes a new address into the IAR/PC.
+			
+			+ Significance: Enables loops or skipping parts of code.
+			
+		- JUMP IF NEGATIVE (JMP_NEG):
+			+ Function: Condition jump - jumps only if ALU's negative flag is set (i.e., result of previos
+			operation was negative).
+			
+			+ Importance: Critical for implementing control structures (if-else, conditional loops).
+			
+		- HALT (HLT):
+			+ Function: Tells the CPU to stop execution.
+			
+			+ Why it's essential: Prevent the CPU from misinterpreting data as code, avoiding crashes or
+			undefined behavior.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	INSTRUCTIONS AND DATA IN MEMORY
+	* Fundamental Rule: Both instructions and data are stored in the same memory, as binary numbers.
+	
+	* Role of HALT: Helps the CPU distinguish between valid instructions and raw data.
+	
+	LOOPS AND CONDITIONAL JUMPS
+	* Loops:
+		- JUMP instructions can create loops by repeating a set of instructions.
+		
+		- Infinite Loop: A loop without an exit condition, causing the program to repeat endlessly.
+		
+	* Conditional Jumps: Condition jumps like JMP_NEG are necessary to exit loops or branch based on calculations.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LIMITATIONS OF SIMPLE VS REAL-WORLD CPUS
+	* Simple CPUs:
+		- Uses 8-bit instructions: 4 bits for opcode, 4 bits for address/data.
+		
+		- Limitations:
+			+ Only 16 unique instructions (2^4).
+			
+			+ Access limited to 16 memory locations (2^4).
+			
+	* Real-World CPUs:
+		- Instruction Length: Uses larger widths to support more instructions and memory space.
+		
+		- Intel 4004 (1971):
+			+ First single-chip microprocessor.
+			
+			+ Supported 46 instructions.
+			
+			+ Used 8-bit addresses.
+			
+		- Modern CPUs:
+			+ Thounsands of instructions and variations.
+			
+			+ Variable instruction length from 1 to 15 bytes.
+			
+		- Instruction Set Evolution: The instruction set has grown as more components were added to the CPU
+		design, enabling more power and flexibility.
+		

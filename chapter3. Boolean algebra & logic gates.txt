@@ -1,0 +1,126 @@
+	INTRODUCTION TO BOOLEAN ALGEBRA
+	* Origin:
+		- Developed by George Boole, a British mathematician in the 1800s.
+		
+		- Boole was interested in expressing logical statements mathematically.
+		
+	* Values:
+		- Boolean algebra works with only two values: True and False.
+		
+		- It is the foundation for how computers represent and process information.
+		
+	* Application:
+		- Boolean algebra provides the rules and operations needed to control and manipulate True/False 
+		values.
+		
+		- It is the basis for electronic circuit design and computer programming.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	BASIC BOOLEAN OPERATIONS
+	* NOT Operation (Negation):
+		- Notation: NOT A, ¬A, !A
+		
+		- Function: Inverts the value of a variable.
+			+ If A is True, NOT A is False.
+			
+			+ If A is False, NOT A is True.
+			
+		- Example:
+			NOT(It's raining) = It's not raining.
+			
+	* AND Operation:
+		- Notation: A AND B, A ∧ B, A & B
+		
+		- Function: Retuens True only if both variables are True.
+			+ If A is True and B is True, A AND B is True.
+			
+			+ Otherwise, A AND B is False.
+			
+		- Example:
+			(It's raining) AND (I have an umbrella) = (I don't get wet)
+			-> Only true if both conditions are true.
+		
+	* OR Operation:
+		- Notation: A OR B, A ∨ B, A | B
+		
+		- Function: Returns True if at least one of two variables is True.
+			+ If A or B is True (or both), A OR B is True.
+			
+			+ Only if both are False, A OR B is False.
+			
+		- Example:
+			(I have cash) OR (I have a credit card) = (I can make a purchase)
+			
+	* XOR Operation (Exclusive OR):
+		- Notation: A XOR B, A ⊕ B
+		
+		- Function: Returns True when the two variables have different values.
+			+ If A is True and B is False, or A is False and B is True, A XOR B is True.
+			
+			+ If both are True or both are False, A XOR B is False.
+			
+		- Example:
+			(Light switch is ON) XOR (It's dark) = (Light is on)
+			-> Only true if exactly one condition is true.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	LOGIC GATES: IMPLEMENTING BOOLEAN OPERATIONS
+	* Definition:
+		- Logic gates are simple electronic circuits that perform Boolean operations.
+		
+		- They are the basis building blocks of more complex electronic circuits.
+		
+	* Construction: Made using transistors, which are semiconductor components that act like electronic 
+	switches.
+	
+	* Basic Types of Logic Gates:
+		- NOT Gate: Performs the NOT operation.
+		
+		- AND Gate: Performs the AND operation.
+		
+		- OR Gate: Performs the OR operation.
+		
+		- XOR Gate: Performs the XOR operation.
+		
+	* Representation: Engineers use specific symbols to represent logic gates in circuit diagrams
+		- NOT Gate: Triangle with a small circle.
+		
+		- AND Gate: D-shape.
+		
+		- OR Gate: Spaceshipe-like curved shape.
+		
+	---------------------------------------------------------------------------------------------------------------
+		
+	ABSTRACTION IN COMPUTER SYSTEM DESIGN
+	* Why Abstraction is Needed:
+		- Modern computer systems are incredibly complex, containing bilions of transistors.
+		
+		- Working directly with individual transistors is impractical.
+		
+	* What is Abstraction?
+		- Abstraction hides the complex low-level details and allows us to work with simpler high-level 
+		concepts.
+		
+		- Example: Instead of thinking about transistors, we think in terms of logic gates. Futher, 
+		we abstract logic gates into functional components (like adders, memory units, etc.).
+		
+	* Benefits of Abstraction:
+		- Reduces complexity and makes system design easier.
+		
+		- Allows engineers to focus on the functionality of the systems instead of physical implementation.
+		
+		- Increases modularity and reusability of components.
+		
+	---------------------------------------------------------------------------------------------------------------
+		
+	APPLICATIONS OF LOGIC GATES
+	* Central Processing Unit (CPU): Logic gates are fundamental components of CPUs, enabling calculations 
+	and data flow control.
+	
+	* Memory: Logic gates are used to build storage circuits (e.g., flip-flops).
+	
+	* Control Circuits: Logic gates are used to design circuits that control the operation of electronic 
+	devices.
+		

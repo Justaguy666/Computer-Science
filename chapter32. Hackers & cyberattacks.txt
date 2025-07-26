@@ -1,0 +1,121 @@
+	TYPES OF HACKERS AND THEIR MOTIVATIONS
+	* Types of Hackers:
+		- White Hat Hackers:
+			+ Also known as "ethical hackers".
+			
+			+ Hired by companies, organizations, or governments to identify and fix security vulnerabilities in their
+			systems.
+			
+			+ Their goal is to enhance cybersecurity, protect data, and prevent malicious attacks.
+			
+		- Black Hat Hackers:
+			+ Malicious hackers who perform cyberattacks with malicious intent.
+			
+			+ Goals include data theft, system sabotage, information damage, or financial harm.
+			
+			+ They operate illegaly and are often driven by personal motives.
+			
+		- Grey Hat Hackers: Operate between White Hats and Black Hats. They may find vulnerabilities without permission
+		and later notify the system owner or publish the information to gain attention.
+	
+	* Hacker Motivations:
+		- Entertainment and Curiosity: Many hackers start out wanting to explore and test their skills.
+		
+		- Financial Gain (Cybercrime): The most common motivation today, including stealing personal information for
+		resale, ransomware, fraud, or illicit transactions.
+		
+		- Social or Political Goals (Hacktivism): Using hacking skills to promote political or social causes, or protest
+		against organizations/governments (e.g., Anonymous).
+		
+		- Industrial/National Espionage: Stealing business secrets, military, or political information for competitive
+		or national security purposes.
+		
+		- Destruction: Causing system damage without clear financial gain, sometimes just to showcase skills or cause
+		disruption.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	COMMON CYBERATTACK METHODS
+	* Social Engineering:
+		- The art of manipulating people psychologically to reveal confidential information or perform unsafe actions.
+		
+		- Not related to computer technology, but focuses on human factors.
+		
+		- Examples:
+			+ Phishing: Fake emails from untrusted sources (banks, companies) trick users into clicking malicious links
+			or revealing login credentials.
+			
+			+ Pretexting: Attackers create a fake scenario to trick victims into revealing info (e.g., posing as tech 
+			support to ask for a password).
+			
+			+ Spear Phishing: Targeted phishing attacks on a specific person or organization using persional information.
+			
+			+ Baiting: Leaving infected USB drives in public areas to tempt victims into plugging them into their devices.
+	
+	* Malware:
+		- Any software designed to harm a computer system or steal data.
+		
+		- Common Types:
+			+ Trojan Horse: Disguised as legitmate software but contains hidden malicious code.
+			
+			+ Ransomware: Encrypts victims' data and demands a ransom (usually in cryptocurrency) for decryption.
+			
+			+ Virus: Self-replicates and spreads by infecting files or programs, often requiring user interaction.
+			
+			+ Worm: Self-replicates and spreads across networks without user interaction, exploiting network vulnerabilities.
+			
+			+ Spyware: Collects user information without consent (e.g., keystroke logging, browsing habits).
+			
+			+ Adware: Displays unwanted advertisements.
+			
+			+ Rootkit: Hides the presence of other malware and maintains unauthorized system access.
+			
+	* Brute-force Attack:
+		- Attackers try all possible password combinations until the correct one is found.
+		
+		- May use common password lists (dictionary attack) or random generation.
+		
+		- Physical variation: Copying memory chips to bypass device password limits.
+		
+	* Buffer Overflow Attack:
+		- Occurs when a program writes more data to a buffer than it can hold.
+		
+		- Excess data overflows into adjacent memory, potentially causing crashes or enabling malicious code execution.
+		
+	* SQL Injection Attack:
+		- Attackers insert malicious SQL code into input fields on web applications (e.g., search bars, login forms).
+		
+		- The database interprets and executes the malicious queries, allowing unauthorized access, modification, or 
+		deletion of data.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	ADVANCED THREATS AND THEIR IMPACTS
+	* Botnets and DDoS Attacks:
+		- Botnet: A network of malware-infected computers (called "bots" or "zombies") remotely controlled by attackers.
+		Often, users are unaware their devices are compromised.
+		
+		- Distributed Denial of Service (DDoS) Attack:
+			+ Attackers use a botnet to flood a target server or service with excessive traffic.
+			
+			+ This overwhelms the target, preventing legitmate user access and causing downtime or service failure.
+			
+	* Importance of Software Updates:
+		- Software developers regularly identify and patch security vulnerabilities.
+		
+		- Updating software is essential to protect your system from known exploits.
+		
+		- Failing to update is one of the most common reasons systems get compromised.
+		
+	* Impact of Cyberattacks:
+		- Economic impact: Huge financial losses for business (recovery costs, lost revenue, fines), theft of intellectual
+		property.
+		
+		- Loss of data and privacy: Theft or destruction of personal, financial, or business-critical information.
+		
+		- Service disruption: Interuptions to vital services (healthcare, finance, transportation) affecting daily life.
+		
+		- Loss of reputation: Organizations may lose customer and partner trust after being attacked.
+		
+		- Cyber warfare: State-sponsored attacks targeting critical infrastructure of rival nations, potentially causing 
+		damage similar to conventional warfare.

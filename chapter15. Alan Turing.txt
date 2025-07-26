@@ -1,0 +1,91 @@
+	EARLY LIFE AND EDUCATION
+	* Alan Turing (1912-1954): Born in London in 1912.
+	
+	* Talent: Demonstrated a remarkable aptitude for mathematics and science from a young age.
+	
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE DECISION PROBLEM AND THE TURING MACHINE
+	* The Decision Problem (Entscheidungsproblem):
+		- Context: In 1935, while studying at King's College, Cambridge, Turing tackled a challenge posed by
+		German mathemacian David Hilbert.
+		
+		- Content: The problem asked whether a general algorithm exists that can determine the truth or falsity
+		of any logical statement.
+		
+	* The Concept of the Turing Machine:
+		- Purpose: To address the Decision problem, Turing conceived of a hypothetical computing device, now
+		known as the Turing Machine.
+		
+		- Components:
+			+ An infinite tape to store symbols.
+			
+			+ A read/write head.
+			
+			+ A state register.
+			
+			+ A set of rules governing its actions based on the current state and read symbol.
+			
+		- Significance: In theory, a Turing Machine can perform any computation given enough time and memory,
+		making it a "universal computer" - the theorical foundation for modern computing.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	THE HALTING PROBLEM
+	* The Problem: Turing used his machine concept to tackle the "Halting Problem" - the question of whether
+	a program will eventually stop or run forever.
+	
+	* Result:
+		- Turing proved that no general algorithm can solve the Halting Problem for all possible program-input
+		pairs; it is "undecidable".
+		
+		- Significance: This revealed fundamental limits to what computer can solve - a landmark discovery in 
+		computer science.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	WORLD WAR II AND THE ENIGMA MACHINE
+	* Bletchley Park: During WWII, Turing worked at Bletchley Park, the UK's code-breaking center.
+	
+	* Cracking Enigma:
+		- He played a key role in breaking the German military code encrypted by the Enigma machine.
+		
+		- Enigma Machine: Used rotors and a plugboard to generate billions of possible encryption settings.
+		
+	* The Bombe Machine:
+		- Building on earlier Polish work, Turing designed an electromechanical device called the "Bombe".
+		
+		- How It Worked: The Bombe exploited a flaw in Enigma (a letter could never be encrypted as itself)
+		to significantly reduce the number possible Enigma settings.
+		
+		- Impact: The intelligence gained from this work was vital to the Allied victory.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	 POST-WAR CONTRIBUTIONS AND ARTIFICIAL INTELLIGENCE
+	 * Early Electronic Computers: After the war, Turing contributed to early electronic computer development,
+	such as the Manchester Mark I.
+	
+	* Artificial Intelligence (AI): His most famous post-war contribution was to the nascent field of artificial
+	intelligence.
+	
+	* The Turing Test:
+		- Proposal: In 1950, Turing proposed the Turing Test to determine wheter a machine could exhibit intelligent
+		behavior indistinguishable from a human's.
+		
+		- Execution: A human interrogrator tries to distinguish between a human and a machine based on typed conversion.
+		
+		- Modern Application: A modern offshoot of this idea is CAPTCHA, used to differentiate humans from bots online.
+		
+	---------------------------------------------------------------------------------------------------------------
+	
+	LEGACY
+	* Death: Alan Turing died in 1954 at the age of 41.
+	
+	* Immense Contributions: His contributions to theorical computer science were monumental.
+	
+	* Turing Award: The highest honor in computer science - the Turing Award - is named after him, often considered
+	the "Nobel Prize of Computing".
+	
+	* Foundation of the Digital Age: Turing's work laid the groundwork for the digital age we live in today.
+	
